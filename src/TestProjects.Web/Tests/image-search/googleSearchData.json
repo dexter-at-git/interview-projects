@@ -1,0 +1,249 @@
+﻿{
+ "kind": "customsearch#search",
+ "url": {
+  "type": "application/json",
+  "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&cref={cref?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+ },
+ "queries": {
+  "request": [
+   {
+    "title": "Google Custom Search - apple",
+    "totalResults": "1920000000",
+    "searchTerms": "apple",
+    "count": 10,
+    "startIndex": 1,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "010614378049903159039:h3-6gwuk96u",
+    "searchType": "image",
+    "imgSize": "medium"
+   }
+  ],
+  "nextPage": [
+   {
+    "title": "Google Custom Search - apple",
+    "totalResults": "1920000000",
+    "searchTerms": "apple",
+    "count": 10,
+    "startIndex": 11,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "010614378049903159039:h3-6gwuk96u",
+    "searchType": "image",
+    "imgSize": "medium"
+   }
+  ]
+ },
+ "context": {
+  "title": "Image search engine"
+ },
+ "searchInformation": {
+  "searchTime": 0.226233,
+  "formattedSearchTime": "0.23",
+  "totalResults": "1920000000",
+  "formattedTotalResults": "1,920,000,000"
+ },
+ "items": [
+  {
+   "kind": "customsearch#result",
+   "title": "Apple | TechCrunch",
+   "htmlTitle": "\u003cb\u003eApple\u003c/b\u003e | TechCrunch",
+   "link": "https://tctechcrunch2011.files.wordpress.com/2014/06/apple_topic.png?w=220",
+   "displayLink": "techcrunch.com",
+   "snippet": "Apple",
+   "htmlSnippet": "\u003cb\u003eApple\u003c/b\u003e",
+   "mime": "image/png",
+   "fileFormat": "Image Document",
+   "image": {
+    "contextLink": "https://techcrunch.com/topic/company/apple/",
+    "height": 220,
+    "width": 220,
+    "byteSize": 4179,
+    "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQucpFQmcJFGHVxlrljW1SOBKzbcvRBtD3qNPW4tTmXKBxGlYq6LuhfWDg",
+    "thumbnailHeight": 107,
+    "thumbnailWidth": 107
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "History of Apple Inc. - Wikipedia, the free encyclopedia",
+   "htmlTitle": "History of \u003cb\u003eApple\u003c/b\u003e Inc. - Wikipedia, the free encyclopedia",
+   "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/150px-Apple_logo_black.svg.png",
+   "displayLink": "en.wikipedia.org",
+   "snippet": "Current Apple logo introduced ...",
+   "htmlSnippet": "Current \u003cb\u003eApple\u003c/b\u003e logo introduced ...",
+   "mime": "image/png",
+   "fileFormat": "Image Document",
+   "image": {
+    "contextLink": "https://en.wikipedia.org/wiki/History_of_Apple_Inc.",
+    "height": 150,
+    "width": 150,
+    "byteSize": 2577,
+    "thumbnailLink": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTA3dcuLTwWxd2ldneGsm_0R5P1rKGBnl8XhvX8Ku01nT6YM2FtLOH0JA",
+    "thumbnailHeight": 96,
+    "thumbnailWidth": 96
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Contact Apple for support and service - Apple Support",
+   "htmlTitle": "Contact \u003cb\u003eApple\u003c/b\u003e for support and service - \u003cb\u003eApple\u003c/b\u003e Support",
+   "link": "https://support.apple.com/library/content/dam/edam/applecare/images/en_US/applecare/region-us-ca-pr-nav.png",
+   "displayLink": "support.apple.com",
+   "snippet": "The United States and Canada",
+   "htmlSnippet": "The United States and Canada",
+   "mime": "image/png",
+   "fileFormat": "Image Document",
+   "image": {
+    "contextLink": "https://support.apple.com/en-us/HT201232",
+    "height": 140,
+    "width": 340,
+    "byteSize": 11229,
+    "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlepJlOMtGGUTdzRkS4v5c2QfEzzSLQQiDJKp06wseBd0-PeDzs9ldog",
+    "thumbnailHeight": 49,
+    "thumbnailWidth": 119
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Apple Mobile Phones : Latest & New Mobile Phones List",
+   "htmlTitle": "\u003cb\u003eApple\u003c/b\u003e Mobile Phones : Latest &amp; New Mobile Phones List",
+   "link": "http://cdn.gadgets360.com/content/assets/brands/apple.png?quality=80&output-format=jpg",
+   "displayLink": "gadgets.ndtv.com",
+   "snippet": "Apple logo",
+   "htmlSnippet": "\u003cb\u003eApple\u003c/b\u003e logo",
+   "mime": "image/png",
+   "fileFormat": "Image Document",
+   "image": {
+    "contextLink": "http://gadgets.ndtv.com/mobiles/apple-phones",
+    "height": 160,
+    "width": 240,
+    "byteSize": 2966,
+    "thumbnailLink": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ9jq-f7Q5jUbj3ESHUWzyVAIMjFz3p8WUov3_11w44d5Nd_ayjU43Z-w",
+    "thumbnailHeight": 73,
+    "thumbnailWidth": 110
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Official Apple Support",
+   "htmlTitle": "Official \u003cb\u003eApple\u003c/b\u003e Support",
+   "link": "https://support.apple.com/content/dam/edam/applecare/images/en_US/promo_icons/large-promo-icon-twitter-blue_2x.png",
+   "displayLink": "support.apple.com",
+   "snippet": "Contact Apple Support",
+   "htmlSnippet": "Contact \u003cb\u003eApple\u003c/b\u003e Support",
+   "mime": "image/png",
+   "fileFormat": "Image Document",
+   "image": {
+    "contextLink": "https://support.apple.com/",
+    "height": 160,
+    "width": 160,
+    "byteSize": 3047,
+    "thumbnailLink": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT2AbxaOfGKaerALwhRxZ2cYkNsFxoZn3N3yek5QHOQJ2rlo8pSgmNk_A",
+    "thumbnailHeight": 98,
+    "thumbnailWidth": 98
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "File:Apple logo black.svg - Wikimedia Commons",
+   "htmlTitle": "File:\u003cb\u003eApple\u003c/b\u003e logo black.svg - Wikimedia Commons",
+   "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/200px-Apple_logo_black.svg.png",
+   "displayLink": "commons.wikimedia.org",
+   "snippet": "This image rendered as PNG in ...",
+   "htmlSnippet": "This image rendered as PNG in ...",
+   "mime": "image/png",
+   "fileFormat": "Image Document",
+   "image": {
+    "contextLink": "https://commons.wikimedia.org/wiki/File:Apple_logo_black.svg",
+    "height": 200,
+    "width": 200,
+    "byteSize": 3576,
+    "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0QxDbV8shJz7zvxTeSX3Rf1TWMwM7noKhdggeEHyOUiLy0QpQz8Y0_w",
+    "thumbnailHeight": 104,
+    "thumbnailWidth": 104
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Renew and Recycling - Apple",
+   "htmlTitle": "Renew and Recycling - \u003cb\u003eApple\u003c/b\u003e",
+   "link": "https://www.apple.com/ac/structured-data/images/knowledge_graph_logo.png?201604140847",
+   "displayLink": "www.apple.com",
+   "snippet": "Renew and Recycling - Apple",
+   "htmlSnippet": "Renew and Recycling - \u003cb\u003eApple\u003c/b\u003e",
+   "mime": "image/png",
+   "fileFormat": "Image Document",
+   "image": {
+    "contextLink": "http://www.apple.com/recycling/",
+    "height": 152,
+    "width": 152,
+    "byteSize": 4048,
+    "thumbnailLink": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTYn78Ksh9Ap3JMc7EiR1DFoe3tsYlSGlrrqG5gxPRFXshjRIXLNX4e1g",
+    "thumbnailHeight": 96,
+    "thumbnailWidth": 96
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Apple posts record India sales in tough October-December quarter ...",
+   "htmlTitle": "\u003cb\u003eApple\u003c/b\u003e posts record India sales in tough October-December quarter ...",
+   "link": "http://img.etimg.com/thumb/msid-50660935,width-310,resizemode-4,imglength-8035/apple-posts-record-india-sales-in-tough-october-december-quarter.jpg",
+   "displayLink": "economictimes.indiatimes.com",
+   "snippet": "Apple's sales in India rose to ...",
+   "htmlSnippet": "\u003cb\u003eApple&#39;s\u003c/b\u003e sales in India rose to ...",
+   "mime": "image/jpeg",
+   "image": {
+    "contextLink": "http://economictimes.indiatimes.com/small-biz/apple-posts-record-india-sales-in-tough-october-december-quarter/articleshow/50660904.cms",
+    "height": 233,
+    "width": 310,
+    "byteSize": 4867,
+    "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJPj_-gSC3qur68Rz_cx_U05eBVXTpIAh_4aQ8wuyQmbQtQldNflp3Wg",
+    "thumbnailHeight": 88,
+    "thumbnailWidth": 117
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Apple considering a bid for the Formula 1 racing franchise ...",
+   "htmlTitle": "\u003cb\u003eApple\u003c/b\u003e considering a bid for the Formula 1 racing franchise ...",
+   "link": "http://metropolitan.fi/files/2016-07/apple-logo-black.svg.png",
+   "displayLink": "metropolitan.fi",
+   "snippet": "Apple considering a bid for ...",
+   "htmlSnippet": "\u003cb\u003eApple\u003c/b\u003e considering a bid for ...",
+   "mime": "image/png",
+   "fileFormat": "Image Document",
+   "image": {
+    "contextLink": "http://metropolitan.fi/formula-1-fact/apple-considering-a-bid-for-formula-1",
+    "height": 255,
+    "width": 255,
+    "byteSize": 4770,
+    "thumbnailLink": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTYrLl3OUFL_vwnlVSyv4OQcgIVM7sK0tt04XMSZ09TbzGmTC6NQijg_M0",
+    "thumbnailHeight": 111,
+    "thumbnailWidth": 111
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Mac - Official Apple Support",
+   "htmlTitle": "Mac - Official \u003cb\u003eApple\u003c/b\u003e Support",
+   "link": "https://support.apple.com/content/dam/edam/applecare/images/en_US/mac/featured-content-apple-id-4up-icon_2x.png",
+   "displayLink": "support.apple.com",
+   "snippet": "... start using an Apple ID",
+   "htmlSnippet": "... start using an \u003cb\u003eApple\u003c/b\u003e ID",
+   "mime": "image/png",
+   "fileFormat": "Image Document",
+   "image": {
+    "contextLink": "https://support.apple.com/mac",
+    "height": 300,
+    "width": 300,
+    "byteSize": 57525,
+    "thumbnailLink": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTiIAB_KmPxYtnk_FSQIHlZN2eNUIzdcG961MHroiDSmUKMFyCNg8tW9A",
+    "thumbnailHeight": 116,
+    "thumbnailWidth": 116
+   }
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+﻿<div class="col-sm-12" cg-busy="{promise:vm.searchImagePromise, message:'Querying google for images ...', minDuration:700}">
+    <div class="row">
+        <div class="col-sm-4 col-md-3 top10" ng-repeat="searchResult in vm.searchResults">
+            <div class="item-image">
+                <button class="btn btn-xs btn-danger fixed-topright-position" ng-click="vm.removeElement($index)"><i class="fa fa-times"></i></button>
+                <img class="img-responsive" ng-src="{{searchResult.thumbnailUrl}}" alt="{{searchResult.title}}" />
+            </div>
+            <div class="item-content">
+                <div class="item-text text-center">
+                    <a target="_self" href="{{searchResult.url}}" download>
+                        <p>{{searchResult.title}}</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

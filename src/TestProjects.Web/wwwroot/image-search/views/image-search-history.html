@@ -1,0 +1,9 @@
+﻿<strong>Previous results</strong>
+<div ng-repeat="historyRecord in vm.searchHistory | orderBy:'key':true">
+    <p>
+        Search at <a href="" ng-click="vm.restoreHistory(historyRecord.key)">{{historyRecord.date | date:' HH:mm:ss dd.MM.yyyy'}}</a>
+        <br />
+        {{historyRecord.searchResults.length}} images saved
+    </p>
+    <hr />
+</div>

@@ -1,0 +1,30 @@
+﻿<div class="row row-same-height">
+    <div class="col-sm-9">
+        <div class="row top10">
+            <div class="col-sm-12">
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                    <input type="text" class="form-control" id="searchQuery" ng-model="vm.searchQuery" ng-change="vm.search()" placeholder="Search for image ..." ng-model-options="{'updateOn': 'default blur','debounce': {'default': 300,'blur': 0}}">
+                </div>
+            </div>
+        </div>        
+        <div class="row top10">
+            <div ui-view="results"></div>
+        </div>
+        <div class="row text-center top10" ng-if="vm.searchResults.length">
+            <div class="col-sm-12">
+                <button class="btn btn-primary" ng-click="vm.saveSearchResults()"><i class="fa fa-save"></i> Save search results</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-3 left-col-devider" ng-if="vm.searchHistory.length">
+        <div>
+            <div ui-view="history"></div>
+        </div>
+    </div>
+</div>
+<div ng-if="vm.error" class="top10">
+    <div class="alert alert-danger">
+        {{vm.error.error.message}}
+    </div>
+</div>
