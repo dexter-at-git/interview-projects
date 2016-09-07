@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test Projects</title>
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="lib/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="lib/angular-busy/angular-busy.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="container" ng-cloak>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" ui-sref="/">Test projects from interviews</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="image-search/home.html">Image search</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div>
+            <h3 class="page-header">Here I will publish test projects from my interviews</h3>
+            <div class="well">
+                <p>
+                    <strong>
+                        <a href="image-search/home.html">Image search</a> - Single-page application to search image using Google API with ability to save search history in local storage
+                    </strong>
+                </p>
+                <p>
+                    Technologies  and tools that were used:
+                    <ul>
+                        <li>AngularJS as a main framework to build SPA</li>
+                        <li>Jasmine as a framework for unit testing</li>
+                        <li>Bower as a package manager</li>
+                        <li>Grunt and gulp as a build tools (just an example to solve different tasks)</li>
+                    </ul>
+                </p>
+                <p>
+                    To improve:
+                    <ul>
+                        <li>Handle Google API restriction of 100 free API calls</li>
+                        <li>Search result limited to 10, should add 'Load more' option</li>
+                        <li>Unit tests for services</li>
+                        <li>Move test mock data to separate files</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
