@@ -6,6 +6,6 @@ namespace Transcipher.Algorithms
     public interface IAlgorithmFactory
     {
         IDictionary<string, Type> Get();
-        IEncryptionAlgorithm CreateAlgorithm(String name);
+        IEncryptionAlgorithm CreateAlgorithm(string name);
     }
 }

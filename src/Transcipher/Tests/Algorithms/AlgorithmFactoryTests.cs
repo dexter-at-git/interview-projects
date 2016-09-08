@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Transcipher.Algorithms;
 using Xunit;
 
@@ -9,7 +6,7 @@ namespace Transcipher.Tests.Algorithms
 {
     public class AlgorithmFactoryTests
     {
-        IAlgorithmFactory _algorithmFactory = new AlgorithmFactory();
+        private readonly IAlgorithmFactory _algorithmFactory = new AlgorithmFactory();
 
         [Fact]
         public void GetAlgorithms_ShouldReturnValues()
@@ -32,7 +29,5 @@ namespace Transcipher.Tests.Algorithms
             
             Assert.NotNull(algo);
         }
-
-
     }
 }

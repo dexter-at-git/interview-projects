@@ -3,11 +3,11 @@ using System.IO;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace Transcipher.Algorithms
+namespace Transcipher.Algorithms.Implementations
 {
     public class AesEncryption : IEncryptionAlgorithm
     {
-        private byte[] _keyBytes = Encoding.UTF8.GetBytes("tR7nR6wZHGjYMCuV");
+        private readonly byte[] _keyBytes = Encoding.UTF8.GetBytes("tR7nR6wZHGjYMCuV");
 
         public string Encrypt(string input)
         {
@@ -49,8 +49,7 @@ namespace Transcipher.Algorithms
 
             return Convert.ToBase64String(combinedIvCt);
         }
-
-
+        
         public string Decrypt(string input)
         {
             if (String.IsNullOrEmpty(input))
@@ -87,7 +86,6 @@ namespace Transcipher.Algorithms
                         }
                     }
                 }
-
             }
 
             return plaintext;

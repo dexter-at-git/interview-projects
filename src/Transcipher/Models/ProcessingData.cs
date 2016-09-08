@@ -1,6 +1,6 @@
 using Newtonsoft.Json;
 
-namespace Transcipher.Controllers
+namespace Transcipher.Models
 {
     public class ProcessingData
     {

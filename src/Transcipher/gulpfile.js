@@ -25,5 +25,4 @@ gulp.task("copy", ["clean"], function () {
         gulp.src(paths.bower + bower[destinationDir])
           .pipe(gulp.dest(paths.lib + destinationDir));
     }
-
 });

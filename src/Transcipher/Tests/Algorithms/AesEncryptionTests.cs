@@ -1,13 +1,13 @@
 using System;
 using Transcipher.Algorithms;
-using Transcipher.Controllers;
+using Transcipher.Algorithms.Implementations;
 using Xunit;
 
 namespace Transcipher.Tests.Algorithms
 {
     public class AesEncryptionTests
     {
-        public IEncryptionAlgorithm _aesAlgorithm = new AesEncryption();
+        private readonly IEncryptionAlgorithm _aesAlgorithm = new AesEncryption();
 
         [Fact]
         public void Encrypt_EmptyInput_ShouldReturnEmptyString()

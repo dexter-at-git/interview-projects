@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Transcipher.Algorithms
+namespace Transcipher.Algorithms.Implementations
 {
     public class MorseEncryption : IEncryptionAlgorithm
     {
-        Dictionary<char, string> _morseDictionary = new Dictionary<char, string>()
+        private readonly Dictionary<char, string> _morseDictionary = new Dictionary<char, string>()
         {
             {'a', ".-"}, {'b', "-..."}, {'c', "-.-."},
             {'d', "-.."}, {'e', "."}, {'f', "..-."},
@@ -48,7 +48,6 @@ namespace Transcipher.Algorithms
                 {
                     sb.Append(" ");
                 }
-
             }
 
             return sb.ToString();

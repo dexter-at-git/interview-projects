@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using Moq;
 using Transcipher.Algorithms;
-using Transcipher.Controllers;
 using Transcipher.Services;
 using Xunit;
 
@@ -12,9 +10,9 @@ namespace Transcipher.Tests.Services
 {
     public class TranscipherServiceTests
     {
-        private Mock<IAlgorithmFactory> _encryptionFactoryMock = new Mock<IAlgorithmFactory>();
-        private Mock<IEncryptionAlgorithm> _encryptionAlgorithmMock = new Mock<IEncryptionAlgorithm>();
-        private TranscipherService _encryptionService;
+        private readonly Mock<IAlgorithmFactory> _encryptionFactoryMock = new Mock<IAlgorithmFactory>();
+        private readonly Mock<IEncryptionAlgorithm> _encryptionAlgorithmMock = new Mock<IEncryptionAlgorithm>();
+        private readonly TranscipherService _encryptionService;
         private string _fakeAlgorithmName = "fakealgo";
         private string _existingAlgorithmName = "algo2";
         private string _message = "test message";

@@ -1,13 +1,13 @@
 ﻿using System;
 using Transcipher.Algorithms;
-using Transcipher.Controllers;
+using Transcipher.Algorithms.Implementations;
 using Xunit;
 
 namespace Transcipher.Tests.Algorithms
 {
     public class MorseEncryptionTests
     {
-        public IEncryptionAlgorithm _morseAlgorithm = new MorseEncryption();
+        private readonly IEncryptionAlgorithm _morseAlgorithm = new MorseEncryption();
 
         [Fact]
         public void Encrypt_EmptyInput_ShouldReturnEmptyString()

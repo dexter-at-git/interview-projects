@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Net;
-using System.Net.Http;
-using System.Security.Cryptography;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Transcipher.Models;
 using Transcipher.Services;
 
 namespace Transcipher.Controllers
@@ -54,8 +50,7 @@ namespace Transcipher.Controllers
                 return StatusCode(500, ex.Message);
             }
         }
-
-
+        
         [AllowAnonymous]
         [Route("decrypt")]
         [HttpPost]

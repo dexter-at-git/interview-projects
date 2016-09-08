@@ -1,13 +1,13 @@
 using System;
 using Transcipher.Algorithms;
-using Transcipher.Controllers;
+using Transcipher.Algorithms.Implementations;
 using Xunit;
 
 namespace Transcipher.Tests.Algorithms
 {
     public class RsaEncryptionTests
     {
-        public IEncryptionAlgorithm _rsaAlgorithm = new RsaEncryption();
+        private readonly IEncryptionAlgorithm _rsaAlgorithm = new RsaEncryption();
 
         [Fact]
         public void Encrypt_EmptyInput_ShouldReturnEmptyString()
