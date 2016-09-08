@@ -17,16 +17,22 @@
         },
         uglify: {
             my_target: {
-                files: { 'wwwroot/transcipher/js/transcipherApp.js': ['Scripts/transcipher/transcipherApp.js', 'Scripts/transcipher/**/*.js', '!Scripts/transcipher/tests/*'] }
+                files: {
+                    '../InterviewProjects.Shell/wwwroot/transcipher/js/transcipherApp.js': ['wwwroot/transcipher/js/transcipherApp.js', 'wwwroot/transcipher/js/**/*.js', '!wwwroot/transcipher/js/tests/*']
+                }
             }
         },
         copy: {
-            main: {
+            views: {
                 files: [{
                     expand: true,
                     flatten: true,
-                    src: ['Scripts/transcipher/**/*.js'],
-                    dest: 'wwwroot/transcipher/',
+                    src: ['wwwroot/transcipher/views/*'],
+                    dest: '../InterviewProjects.Shell/wwwroot/transcipher/views',
+                    filter: 'isFile'
+                }, {
+                    src: ['wwwroot/transcipher/home.html'],
+                    dest: '../InterviewProjects.Shell/wwwroot/transcipher/home.html',
                     filter: 'isFile'
                 }]
             }

@@ -1,0 +1,39 @@
+﻿<div cg-busy="{promise:vm.getEncryptionMethodsPromise, message:'Loading available algorithms ...', minDuration:700}">
+    <div class="row">
+        <div class="form-group col-md-6">
+            <label>Alghoritm</label>
+            <select class="form-control" ng-model="vm.selectedAlgorithm" ng-options="algorithm as algorithm for algorithm in vm.algorithms" ng-change="vm.algorithmChange()">
+                <option value="">-- Select alghoritm --</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="row" ng-if="vm.selectedAlgorithm">
+        <div class="form-group col-md-6">
+            <label>Text for encryption or decryption</label>
+            <textarea class="form-control" rows="5" ng-model="vm.text"></textarea>
+        </div>
+    </div>
+
+    <div class="row" ng-if="vm.selectedAlgorithm">
+        <div class="form-group col-md-1">
+            <button class="btn btn-success" ng-click="vm.encrypt()" ng-disabled="!vm.text">Encrypt</button>
+        </div>
+        <div class="form-group col-md-1">
+            <button class="btn btn-primary" ng-click="vm.decrypt()" ng-disabled="!vm.text">Decrypt</button>
+        </div>
+    </div>
+
+    <div class="row" ng-if="vm.error">
+        <div class="form-group col-md-6">
+            <div class="alert alert-danger">{{vm.error | json}}</div>
+        </div>
+    </div>
+
+    <div class="row" ng-if="vm.result">
+        <div class="form-group col-md-6">
+            <label>Result</label>
+            <textarea class="form-control" rows="5" ng-model="vm.result" disabled></textarea>
+        </div>
+    </div>
+</div>

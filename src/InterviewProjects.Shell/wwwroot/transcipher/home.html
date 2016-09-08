@@ -4,13 +4,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Image Search</title>
-    <link href="../image-search/css/custom-styles.css" rel="stylesheet" />
+    <title>Transcipher</title>
     <link href="../lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
     <link href="../lib/font-awesome/css/font-awesome.css" rel="stylesheet" />
     <link href="../lib/angular-busy/angular-busy.css" rel="stylesheet" />
 </head>
-<body ng-app="imageSearchApp">
+<body ng-app="transcipherApp">
     <div class="container" ng-cloak>
         <nav class="navbar navbar-default">
             <div class="container-fluid">
@@ -22,7 +21,7 @@
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li ui-sref-active="active"><a ui-sref="/">Image search</a></li>
+                        <li ui-sref-active="active"><a ui-sref="/">Transcipher</a></li>
                     </ul>
                 </div>
             </div>
@@ -35,11 +34,9 @@
     <script src="../lib/angular/angular.js"></script>
     <script src="../lib/angular-ui-router/angular-ui-router.js"></script>
     <script src="../lib/angular-busy/angular-busy.js"></script>
-    <script src="js/imageSearchApp.js"></script>
-    <script src="js/controllers/imageSearchController.js"></script>
-    <script src="js/services/imageSearchService.js"></script>
-    <script src="js/services/localStorageService.js"></script>
-    <script src="js/services/modelTransformer.js"></script>
 
+    <script src="js/transcipherApp.js"></script>
+    <script src="js/controllers/transcipherController.js"></script>
+    <script src="js/services/transcipherService.js"></script>
 </body>
 </html>

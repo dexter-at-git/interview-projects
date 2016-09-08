@@ -17,7 +17,6 @@
         },
         uglify: {
             my_target: {
-                // files: { 'wwwroot/image-search/js/imageSearchApp.js': ['Scripts/image-search/imageSearchApp.js', 'Scripts/image-search/**/*.js', '!Scripts/image-search/tests/*'] }
                 files: {
                     '../InterviewProjects.Shell/wwwroot/image-search/js/imageSearchApp.js': ['wwwroot/image-search/js/imageSearchApp.js', 'wwwroot/image-search/js/**/*.js', '!wwwroot/image-search/js/tests/*']
                 }
@@ -35,17 +34,17 @@
             },
             views: {
                 files: [{
-                expand: true,
-                flatten: true,
-                src: ['wwwroot/image-search/views/*'],
-                dest: '../InterviewProjects.Shell/wwwroot/image-search/views',
-                filter: 'isFile'
+                    expand: true,
+                    flatten: true,
+                    src: ['wwwroot/image-search/views/*'],
+                    dest: '../InterviewProjects.Shell/wwwroot/image-search/views',
+                    filter: 'isFile'
                 }, {
                     src: ['wwwroot/image-search/home.html'],
                     dest: '../InterviewProjects.Shell/wwwroot/image-search/home.html',
                     filter: 'isFile'
                 }]
-    }
+            }
         },
         watch: {
             scripts: {
