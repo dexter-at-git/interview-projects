@@ -17,7 +17,9 @@ gulp.task("copy", ["clean"], function () {
         "angular": "angular/angular*.{js,map}",
         "angular-ui-router": "angular-ui-router/release/*.js",
         "angular-busy": "angular-busy/dist/*.{js,css}",
-        "font-awesome": "font-awesome/**/*.{css,ttf,svg,woff,eot}"
+        "font-awesome": "font-awesome/**/*.{css,ttf,svg,woff,eot}",
+        "jasmine": "jasmine-core/lib/jasmine-core.js",
+        "angular-mocks": "angular-mocks/angular-mocks.js"
     }
 
     for (var destinationDir in bower) {
