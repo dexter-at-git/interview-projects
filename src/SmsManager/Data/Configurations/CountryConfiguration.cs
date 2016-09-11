@@ -16,5 +16,4 @@ namespace SmsManager.Data.Configurations
             entityBuilder.ToTable("Country");
         }
     }
-
 }

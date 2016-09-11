@@ -1,8 +1,7 @@
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
-using SmsManager.Models;
 
-namespace SmsManager.Controllers
+namespace SmsManager.Models.Responses
 {
     public class SendSmsResponse
     {

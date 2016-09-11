@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace SmsManager.Controllers
+namespace SmsManager.Models.Responses
 {
     public class SentSmsResponse
     {

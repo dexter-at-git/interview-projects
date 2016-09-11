@@ -1,6 +1,6 @@
 ﻿using SmsManager.Models;
 
-namespace SmsManager.Services
+namespace SmsManager.Services.Interfaces
 {
     public interface ISmsSender
     {

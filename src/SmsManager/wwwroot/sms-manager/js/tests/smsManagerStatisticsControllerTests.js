@@ -31,7 +31,7 @@ describe("Sms Manager Statistics Controller tests", function () {
             expect(vm.statistics).toEqual([]);
             expect(vm.dateFrom).not.toEqual('');
             expect(vm.dateTo).not.toEqual('');
-            expect(vm.mccList).not.toEqual([]);
+            expect(vm.mccList).not.toEqual('');
             expect(vm.error).toEqual(undefined);
         });
 

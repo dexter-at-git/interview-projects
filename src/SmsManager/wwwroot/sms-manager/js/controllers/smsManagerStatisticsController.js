@@ -11,9 +11,9 @@
 
         var vm = this;
         vm.error = undefined;
-        vm.dateFrom = '2015-03-01';
-        vm.dateTo = '2015-03-05';
-        vm.mccList = [262, 232, 260];
+        vm.dateFrom = '2016-09-10';
+        vm.dateTo = '2016-09-11';
+        vm.mccList = '262,232,260';
         vm.statistics = [];
 
         vm.filter = function () {
@@ -21,7 +21,7 @@
             var statisticsRequest = {
                 dateFrom: vm.dateFrom,
                 dateTo: vm.dateTo,
-                mccList: vm.mccList
+                mccList: vm.mccList.split(',')
             }
 
             vm.statisticsPromise = smsManagerService.statistics(statisticsRequest)

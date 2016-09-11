@@ -1,18 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using SmsManager.Data;
 using SmsManager.Data.Entities;
+using SmsManager.Repositories.Interfaces;
 
 namespace SmsManager.Repositories
 {
-    public interface ICountryRepository
-    {
-        IEnumerable<CountryEntity> GetCountries();
-    }
-
-
     public class CountryRepoisitory : ICountryRepository
     {
         private readonly SmsManagerContext _context;

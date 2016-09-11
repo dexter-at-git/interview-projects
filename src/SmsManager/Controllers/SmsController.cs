@@ -2,11 +2,9 @@
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNet.Http;
 using Microsoft.AspNetCore.Mvc;
-using SmsManager.Data;
-using SmsManager.Services;
+using SmsManager.Models.Responses;
+using SmsManager.Services.Interfaces;
 
 namespace SmsManager.Controllers
 {
@@ -19,16 +17,44 @@ namespace SmsManager.Controllers
         {
             _smsManagerService = smsManagerService;
         }
+        
+        [HttpGet]
+        [Route("countries.{extension}")]
+        public IActionResult GetCountries(string extension)
+        {
+            if (extension == "xml")
+            {
+                HttpContext.Response.ContentType = "application/xml";
+            }
 
+            try
+            {
+                var countries = _smsManagerService.GetCountries();
 
+                var response = countries.Select(x => new CountryResponse()
+                {
+                    Name = x.Name,
+                    CountryCode = x.Code,
+                    MobileCountryCode = x.MobileCode,
+                    Price = x.SmsPrice
+                });
 
-        ///sms/send.json?from=The+Sender&to=%2B4917421293388&text=Hello+World       
+                return this.Ok(response);
+            }
+            catch (Exception ex)
+            {
+                return this.StatusCode(500, ex.Message);
+            }
+        }
+   
         [HttpGet]
         [Route("send.{extension}")]
         public IActionResult SendSms(string from, string to, string text, string extension)
         {
-
-         //   HttpContext.Response.ContentType = "application/json";
+            if (extension == "xml")
+            {
+                HttpContext.Response.ContentType = "application/xml";
+            }
 
             try
             {
@@ -39,30 +65,33 @@ namespace SmsManager.Controllers
                     SmsStatus = status
                 };
 
-
                 return this.Ok(response);
             }
             catch (Exception ex)
             {
-                return StatusCode(500, ex.Message);
+                return this.StatusCode(500, ex.Message);
             }
         }
-
-
+        
         [HttpGet]
         [Route("sent.{extension}")]
-        public IActionResult GetSentSMS(string dateTimeFrom, string dateTimeTo, int skip, int take)
+        public IActionResult GetSentSMS(string dateTimeFrom, string dateTimeTo, int skip, int take, string extension)
         {
+            if (extension == "xml")
+            {
+                HttpContext.Response.ContentType = "application/xml";
+            }
+
             DateTime fromDateTime;
             if (!DateTime.TryParseExact(dateTimeFrom, "yyyy-MM-ddTHH:mm:ss", CultureInfo.InvariantCulture, DateTimeStyles.None, out fromDateTime))
             {
-                return StatusCode(500, "Incorrect 'From' date");
+                return StatusCode(400, "Incorrect 'From' date");
             }
 
             DateTime toDateTime;
             if (!DateTime.TryParseExact(dateTimeTo, "yyyy-MM-ddTHH:mm:ss", CultureInfo.InvariantCulture, DateTimeStyles.None, out toDateTime))
             {
-                return StatusCode(500, "Incorrect 'To' date");
+                return StatusCode(400, "Incorrect 'To' date");
             }
 
             try
@@ -72,7 +101,7 @@ namespace SmsManager.Controllers
                 var response = new SentSmsResponse()
                 {
                     Count = messages.Count(),
-                    SmsMessageList = messages.Select(x=>new SentSmsMessageResponse()
+                    SmsMessageList = messages.Select(x => new SentSmsMessageResponse()
                     {
                         SmsStatus = x.Status,
                         To = x.To,
@@ -88,42 +117,51 @@ namespace SmsManager.Controllers
             }
             catch (Exception ex)
             {
-                return StatusCode(500, ex.Message);
+                return this.StatusCode(500, ex.Message);
             }
         }
-
-
-
+        
         [HttpGet]
         [Route("statistics.{extension}")]
-        public IActionResult GetStatistics(string dateFrom, string dateTo, IEnumerable<int> mccList)
+        public IActionResult GetStatistics(string dateFrom, string dateTo, IEnumerable<string> mccList, string extension)
         {
+            if (extension == "xml")
+            {
+                HttpContext.Response.ContentType = "application/xml";
+            }
+
+            DateTime fromDateTime;
+            if (!DateTime.TryParseExact(dateFrom, "yyyy-MM-dd", CultureInfo.InvariantCulture, DateTimeStyles.None, out fromDateTime))
+            {
+                return StatusCode(400, "Incorrect 'From' date");
+            }
+
+            DateTime toDateTime;
+            if (!DateTime.TryParseExact(dateTo, "yyyy-MM-dd", CultureInfo.InvariantCulture, DateTimeStyles.None, out toDateTime))
+            {
+                return StatusCode(400, "Incorrect 'To' date");
+            }
+
             try
             {
-                var messages = _smsManagerService.GetSmsMessages(DateTime.Now, DateTime.Now, 10, 10);
+                var messages = _smsManagerService.GetSmsMessages(fromDateTime, toDateTime, mccList);
 
-                var response = messages.GroupBy(x=>new {Day = x.DateSent.ToString("yyyy-MM-dd"), x.Country.MobileCode, x.Country.SmsPrice}).Select(x => new StatisticsResponse()
+                var response = messages.GroupBy(x => new { Day = x.DateSent.ToString("yyyy-MM-dd"), x.Country.MobileCode, x.Country.SmsPrice }).Select(x => new StatisticsResponse()
                 {
                     Day = x.Key.Day,
                     Count = x.Count(),
-                    TotalPrice = x.Sum(y=>y.Country.SmsPrice),
+                    TotalPrice = Math.Round(x.Sum(sum => sum.Country.SmsPrice), 2, MidpointRounding.AwayFromZero),
                     MobileCountryCode = x.Key.MobileCode,
                     Price = x.Key.SmsPrice
                 });
-
-
+                
                 return this.Ok(response);
 
             }
             catch (Exception ex)
             {
-                return StatusCode(500, ex.Message);
-
-                throw;
+                return this.StatusCode(500, ex.Message);
             }
-
         }
-
-
     }
 }

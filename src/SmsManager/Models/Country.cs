@@ -1,8 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace SmsManager.Models
+﻿namespace SmsManager.Models
 {
     public class Country
     {

@@ -11,7 +11,6 @@ namespace SmsManager.Data.Entities
         public string Message { get; set; }
         public DateTime DateSent { get; set; }
         public SmsStatus Status { get; set; }
-
         public int CountryId { get; set; }
         public CountryEntity Country { get; set; }
     }
