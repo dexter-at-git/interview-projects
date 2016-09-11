@@ -85,6 +85,8 @@ namespace SmsManager
             loggerFactory.AddDebug();
             loggerFactory.AddSerilog();
 
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
             app.UseMvc(routes =>
             {
                 // route1

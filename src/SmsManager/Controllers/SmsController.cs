@@ -1,57 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Http;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
 using SmsManager.Data;
-using SmsManager.Models;
 using SmsManager.Services;
 
 namespace SmsManager.Controllers
 {
-
-
-    public class SendSmsResponse
-    {
-        [JsonProperty(PropertyName = "state")]
-        public SmsStatus SmsStatus { get; set; }
-    }
-
-    public class SentSmsResponse
-    {
-        [JsonProperty(PropertyName = "totalCount")]
-        public int Count { get; set; }
-
-        [JsonProperty(PropertyName = "items")]
-        public IEnumerable<SentSmsMessageResponse> SmsMessageList { get; set; }
-    }
-    
-    public class SentSmsMessageResponse
-    {
-        [JsonProperty(PropertyName = "dateTime")]
-        public DateTime DateSent { get; set; }
-
-        [JsonProperty(PropertyName = "mcc")]
-        public string MobileCountryCode { get; set; }
-
-        [JsonProperty(PropertyName = "from")]
-        public string From { get; set; }
-
-        [JsonProperty(PropertyName = "to")]
-        public string To { get; set; }
-
-        [JsonProperty(PropertyName = "price")]
-        public decimal Price { get; set; }
-
-        [JsonProperty(PropertyName = "state")]
-        public SmsStatus SmsStatus { get; set; }
-
-    }
-
-
-
     [Route("api/[controller]")]
     public class SmsController : Controller
     {
@@ -95,9 +53,21 @@ namespace SmsManager.Controllers
         [Route("sent.{extension}")]
         public IActionResult GetSentSMS(string dateTimeFrom, string dateTimeTo, int skip, int take)
         {
+            DateTime fromDateTime;
+            if (!DateTime.TryParseExact(dateTimeFrom, "yyyy-MM-ddTHH:mm:ss", CultureInfo.InvariantCulture, DateTimeStyles.None, out fromDateTime))
+            {
+                return StatusCode(500, "Incorrect 'From' date");
+            }
+
+            DateTime toDateTime;
+            if (!DateTime.TryParseExact(dateTimeTo, "yyyy-MM-ddTHH:mm:ss", CultureInfo.InvariantCulture, DateTimeStyles.None, out toDateTime))
+            {
+                return StatusCode(500, "Incorrect 'To' date");
+            }
+
             try
             {
-                var messages = _smsManagerService.GetSmsMessages(DateTime.Now, DateTime.Now, 10, 10);
+                var messages = _smsManagerService.GetSmsMessages(fromDateTime, toDateTime, 10, 10);
 
                 var response = new SentSmsResponse()
                 {
@@ -109,6 +79,7 @@ namespace SmsManager.Controllers
                         From = x.From,
                         DateSent = x.DateSent,
                         MobileCountryCode = x.Country.MobileCode,
+                        CountryName = x.Country.Name,
                         Price = x.Country.SmsPrice
                     })
                 };
@@ -122,7 +93,37 @@ namespace SmsManager.Controllers
         }
 
 
-        
-        
+
+        [HttpGet]
+        [Route("statistics.{extension}")]
+        public IActionResult GetStatistics(string dateFrom, string dateTo, IEnumerable<int> mccList)
+        {
+            try
+            {
+                var messages = _smsManagerService.GetSmsMessages(DateTime.Now, DateTime.Now, 10, 10);
+
+                var response = messages.GroupBy(x=>new {Day = x.DateSent.ToString("yyyy-MM-dd"), x.Country.MobileCode, x.Country.SmsPrice}).Select(x => new StatisticsResponse()
+                {
+                    Day = x.Key.Day,
+                    Count = x.Count(),
+                    TotalPrice = x.Sum(y=>y.Country.SmsPrice),
+                    MobileCountryCode = x.Key.MobileCode,
+                    Price = x.Key.SmsPrice
+                });
+
+
+                return this.Ok(response);
+
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+
+                throw;
+            }
+
+        }
+
+
     }
 }

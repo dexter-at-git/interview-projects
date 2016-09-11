@@ -1,0 +1,58 @@
+﻿<div cg-busy="{promise:vm.browsePromise, message:'Loading message history ...', minDuration:700}">
+    <div class="row">
+        <div class="form-group col-md-2">
+            <label class="control-label">Date from</label>
+            <input class="form-control" ng-model="vm.dateTimeFrom" />
+        </div>
+
+        <div class="form-group col-md-2">
+            <label class="control-label">Date to</label>
+            <input class="form-control" ng-model="vm.dateTimeTo" />
+        </div>
+
+        <div class="form-group col-md-2">
+            <label class="control-label">&nbsp;</label>
+            <button class="btn btn-primary btn-block" ng-click="vm.filter()" ng-disabled="!vm.dateTimeFrom || !vm.dateTimeTo">Filter</button>
+        </div>
+    </div>
+
+    <hr />
+
+    <table class="table table-striped" ng-if="vm.response.items.length">
+        <thead>
+            <tr>
+                <th class="text-center">Date sent</th>
+                <th class="text-center">Mobile country code</th>
+                <th class="text-center">Country</th>
+                <th class="text-center">Sender</th>
+                <th class="text-center">Receiver</th>
+                <th class="text-center">Price</th>
+                <th class="text-center">Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="message in vm.response.items">
+                <td class="text-center">{{message.dateTime}}</td>
+                <td class="text-center">{{message.mcc}}</td>
+                <td class="text-center">{{message.country}}</td>
+                <td class="text-center">{{message.from}}</td>
+                <td class="text-center">{{message.to}}</td>
+                <td class="text-center">{{message.price}}</td>
+                <td class="text-center">{{message.state}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="row" ng-if="vm.error">
+        <div class="form-group col-md-12">
+            <div class="alert alert-danger">{{vm.error | json}}</div>
+        </div>
+    </div>
+
+    <div class="row" ng-if="vm.response">
+        <div class="form-group col-md-6">
+            <label>Result</label>
+            <pre>{{ vm.response | json }}</pre>
+        </div>
+    </div>
+</div>

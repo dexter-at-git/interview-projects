@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using SmsManager.Data;
 using SmsManager.Data.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace SmsManager.Repositories
 {
@@ -31,7 +32,7 @@ namespace SmsManager.Repositories
 
         public IEnumerable<SmsMessageEntity> GetSmsMessagesList(DateTime startDate, DateTime endDate, int skip, int take)
         {
-            var messages = _context.SmsMessages;
+            var messages = _context.SmsMessages.Include(x=>x.Country);
             return messages;
         }
     }

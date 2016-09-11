@@ -921,3 +921,802 @@ WHERE changes() = 1 AND "Id" = last_insert_rowid();
 2016-09-10 22:41:42.161 +02:00 [Information] Request finished in 1554.5019ms 200 application/json; charset=utf-8
 2016-09-10 22:41:42.309 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/favicon.ico  
 2016-09-10 22:41:42.313 +02:00 [Information] Request finished in 3.7868ms 404 
+2016-09-10 23:15:57.792 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/default.html  
+2016-09-10 23:15:57.882 +02:00 [Information] Sending file. Request path: '"/default.html"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\default.html"'
+2016-09-10 23:15:57.937 +02:00 [Information] Request finished in 164.3756ms 200 text/html
+2016-09-10 23:15:58.031 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/bootstrap/css/bootstrap.css  
+2016-09-10 23:15:58.032 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-busy/angular-busy.css  
+2016-09-10 23:15:58.032 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/font-awesome/css/font-awesome.css  
+2016-09-10 23:15:58.032 +02:00 [Information] Sending file. Request path: '"/lib/angular-busy/angular-busy.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-busy\angular-busy.css"'
+2016-09-10 23:15:58.032 +02:00 [Information] Sending file. Request path: '"/lib/font-awesome/css/font-awesome.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\font-awesome\css\font-awesome.css"'
+2016-09-10 23:15:58.032 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/css/bootstrap.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\bootstrap\css\bootstrap.css"'
+2016-09-10 23:15:58.033 +02:00 [Information] Request finished in 1.1856ms 200 text/css
+2016-09-10 23:15:58.033 +02:00 [Information] Request finished in 1.3244ms 200 text/css
+2016-09-10 23:15:58.043 +02:00 [Information] Request finished in 11.2362ms 200 text/css
+2016-09-10 23:16:15.316 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/home.html  
+2016-09-10 23:16:15.317 +02:00 [Information] Sending file. Request path: '"/sms-manager/home.html"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\home.html"'
+2016-09-10 23:16:15.318 +02:00 [Information] Request finished in 1.4443ms 200 text/html
+2016-09-10 23:16:15.409 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular/angular.js  
+2016-09-10 23:16:15.410 +02:00 [Information] Sending file. Request path: '"/lib/angular/angular.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular\angular.js"'
+2016-09-10 23:16:15.411 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-ui-router/angular-ui-router.js  
+2016-09-10 23:16:15.411 +02:00 [Information] Sending file. Request path: '"/lib/angular-ui-router/angular-ui-router.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-ui-router\angular-ui-router.js"'
+2016-09-10 23:16:15.412 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-busy/angular-busy.js  
+2016-09-10 23:16:15.413 +02:00 [Information] Sending file. Request path: '"/lib/angular-busy/angular-busy.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-busy\angular-busy.js"'
+2016-09-10 23:16:15.413 +02:00 [Information] Request finished in 2.3873ms 200 application/javascript
+2016-09-10 23:16:15.415 +02:00 [Information] Request finished in 3.1234ms 200 application/javascript
+2016-09-10 23:16:15.427 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/smsManagerApp.js  
+2016-09-10 23:16:15.427 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/controllers/smsManagerSendController.js  
+2016-09-10 23:16:15.428 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/smsManagerApp.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\smsManagerApp.js"'
+2016-09-10 23:16:15.429 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/controllers/smsManagerSendController.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\controllers\smsManagerSendController.js"'
+2016-09-10 23:16:15.430 +02:00 [Information] Request finished in 2.7572ms 200 application/javascript
+2016-09-10 23:16:15.429 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/services/smsManagerService.js  
+2016-09-10 23:16:15.431 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/services/smsManagerService.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\services\smsManagerService.js"'
+2016-09-10 23:16:15.433 +02:00 [Information] Request finished in 3.2851ms 200 application/javascript
+2016-09-10 23:16:15.430 +02:00 [Information] Request finished in 2.7851ms 200 application/javascript
+2016-09-10 23:16:15.468 +02:00 [Information] Request finished in 58.4388ms 200 application/javascript
+2016-09-10 23:16:15.626 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/views/send.html  
+2016-09-10 23:16:15.626 +02:00 [Information] Sending file. Request path: '"/sms-manager/views/send.html"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\views\send.html"'
+2016-09-10 23:16:15.627 +02:00 [Information] Request finished in 0.8826ms 200 text/html
+2016-09-10 23:16:30.006 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/bootstrap/css/bootstrap.css.map  
+2016-09-10 23:16:30.007 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/css/bootstrap.css.map"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\bootstrap\css\bootstrap.css.map"'
+2016-09-10 23:16:30.014 +02:00 [Information] Request finished in 7.6846ms 200 text/plain
+2016-09-10 23:16:33.281 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/home.html  
+2016-09-10 23:16:33.282 +02:00 [Information] Sending file. Request path: '"/sms-manager/home.html"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\home.html"'
+2016-09-10 23:16:33.283 +02:00 [Information] Request finished in 1.9858ms 200 text/html
+2016-09-10 23:16:33.411 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/bootstrap/css/bootstrap.css  
+2016-09-10 23:16:33.411 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/css/bootstrap.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\bootstrap\css\bootstrap.css"'
+2016-09-10 23:16:33.413 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/font-awesome/css/font-awesome.css  
+2016-09-10 23:16:33.413 +02:00 [Information] Request finished in 1.8741ms 200 text/css
+2016-09-10 23:16:33.413 +02:00 [Information] Sending file. Request path: '"/lib/font-awesome/css/font-awesome.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\font-awesome\css\font-awesome.css"'
+2016-09-10 23:16:33.414 +02:00 [Information] Request finished in 1.0571ms 200 text/css
+2016-09-10 23:16:33.415 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-busy/angular-busy.css  
+2016-09-10 23:16:33.416 +02:00 [Information] Sending file. Request path: '"/lib/angular-busy/angular-busy.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-busy\angular-busy.css"'
+2016-09-10 23:16:33.417 +02:00 [Information] Request finished in 1.7518ms 200 text/css
+2016-09-10 23:16:33.422 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-ui-router/angular-ui-router.js  
+2016-09-10 23:16:33.422 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-busy/angular-busy.js  
+2016-09-10 23:16:33.424 +02:00 [Information] Sending file. Request path: '"/lib/angular-busy/angular-busy.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-busy\angular-busy.js"'
+2016-09-10 23:16:33.418 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular/angular.js  
+2016-09-10 23:16:33.425 +02:00 [Information] Request finished in 3.7392ms 200 application/javascript
+2016-09-10 23:16:33.428 +02:00 [Information] Sending file. Request path: '"/lib/angular/angular.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular\angular.js"'
+2016-09-10 23:16:33.422 +02:00 [Information] Sending file. Request path: '"/lib/angular-ui-router/angular-ui-router.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-ui-router\angular-ui-router.js"'
+2016-09-10 23:16:33.434 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/smsManagerApp.js  
+2016-09-10 23:16:33.434 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/smsManagerApp.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\smsManagerApp.js"'
+2016-09-10 23:16:33.435 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/controllers/smsManagerSendController.js  
+2016-09-10 23:16:33.436 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/services/smsManagerService.js  
+2016-09-10 23:16:33.436 +02:00 [Information] Request finished in 3.5458ms 200 application/javascript
+2016-09-10 23:16:33.436 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/controllers/smsManagerSendController.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\controllers\smsManagerSendController.js"'
+2016-09-10 23:16:33.440 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/services/smsManagerService.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\services\smsManagerService.js"'
+2016-09-10 23:16:33.435 +02:00 [Information] Request finished in 13.5468ms 200 application/javascript
+2016-09-10 23:16:33.443 +02:00 [Information] Request finished in 7.5741ms 200 application/javascript
+2016-09-10 23:16:33.442 +02:00 [Information] Request finished in 9.6815ms 200 application/javascript
+2016-09-10 23:16:33.482 +02:00 [Information] Request finished in 64.0715ms 200 application/javascript
+2016-09-10 23:16:33.550 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/bootstrap/css/bootstrap.css.map  
+2016-09-10 23:16:33.550 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/css/bootstrap.css.map"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\bootstrap\css\bootstrap.css.map"'
+2016-09-10 23:16:33.552 +02:00 [Information] Request finished in 2.3955ms 200 text/plain
+2016-09-10 23:16:33.661 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/views/send.html  
+2016-09-10 23:16:33.661 +02:00 [Information] Sending file. Request path: '"/sms-manager/views/send.html"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\views\send.html"'
+2016-09-10 23:16:33.662 +02:00 [Information] Request finished in 0.8666ms 200 text/html
+2016-09-10 23:17:20.612 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/home.html  
+2016-09-10 23:17:20.613 +02:00 [Information] Sending file. Request path: '"/sms-manager/home.html"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\home.html"'
+2016-09-10 23:17:20.614 +02:00 [Information] Request finished in 2.1676ms 200 text/html
+2016-09-10 23:17:20.742 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/bootstrap/css/bootstrap.css  
+2016-09-10 23:17:20.743 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/css/bootstrap.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\bootstrap\css\bootstrap.css"'
+2016-09-10 23:17:20.751 +02:00 [Information] Request finished in 2.244ms 200 text/css
+2016-09-10 23:17:20.751 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-busy/angular-busy.css  
+2016-09-10 23:17:20.751 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/font-awesome/css/font-awesome.css  
+2016-09-10 23:17:20.751 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-ui-router/angular-ui-router.js  
+2016-09-10 23:17:20.753 +02:00 [Information] Sending file. Request path: '"/lib/font-awesome/css/font-awesome.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\font-awesome\css\font-awesome.css"'
+2016-09-10 23:17:20.753 +02:00 [Information] Sending file. Request path: '"/lib/angular-busy/angular-busy.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-busy\angular-busy.css"'
+2016-09-10 23:17:20.755 +02:00 [Information] Request finished in 10.0144ms 200 text/css
+2016-09-10 23:17:20.754 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-busy/angular-busy.js  
+2016-09-10 23:17:20.755 +02:00 [Information] Request finished in 9.5747ms 200 text/css
+2016-09-10 23:17:20.756 +02:00 [Information] Sending file. Request path: '"/lib/angular-busy/angular-busy.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-busy\angular-busy.js"'
+2016-09-10 23:17:20.754 +02:00 [Information] Sending file. Request path: '"/lib/angular-ui-router/angular-ui-router.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-ui-router\angular-ui-router.js"'
+2016-09-10 23:17:20.752 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular/angular.js  
+2016-09-10 23:17:20.764 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/smsManagerApp.js  
+2016-09-10 23:17:20.756 +02:00 [Information] Request finished in 2.3984ms 200 application/javascript
+2016-09-10 23:17:20.768 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/controllers/smsManagerSendController.js  
+2016-09-10 23:17:20.768 +02:00 [Information] Request finished in 16.7667ms 200 application/javascript
+2016-09-10 23:17:20.764 +02:00 [Information] Sending file. Request path: '"/lib/angular/angular.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular\angular.js"'
+2016-09-10 23:17:20.768 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/smsManagerApp.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\smsManagerApp.js"'
+2016-09-10 23:17:20.768 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/controllers/smsManagerSendController.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\controllers\smsManagerSendController.js"'
+2016-09-10 23:17:20.775 +02:00 [Information] Request finished in 6.8393ms 200 application/javascript
+2016-09-10 23:17:20.770 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/services/smsManagerService.js  
+2016-09-10 23:17:20.778 +02:00 [Information] Request finished in 14.4237ms 200 application/javascript
+2016-09-10 23:17:20.779 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/services/smsManagerService.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\services\smsManagerService.js"'
+2016-09-10 23:17:20.787 +02:00 [Information] Request finished in 17.2368ms 200 application/javascript
+2016-09-10 23:17:20.848 +02:00 [Information] Request finished in 96.8127ms 200 application/javascript
+2016-09-10 23:17:20.878 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/bootstrap/css/bootstrap.css.map  
+2016-09-10 23:17:20.879 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/css/bootstrap.css.map"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\bootstrap\css\bootstrap.css.map"'
+2016-09-10 23:17:20.887 +02:00 [Information] Request finished in 8.8747ms 200 text/plain
+2016-09-10 23:17:21.044 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/views/send.html  
+2016-09-10 23:17:21.044 +02:00 [Information] Sending file. Request path: '"/sms-manager/views/send.html"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\views\send.html"'
+2016-09-10 23:17:21.044 +02:00 [Information] Request finished in 0.8917ms 200 text/html
+2016-09-10 23:17:30.490 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/home.html  
+2016-09-10 23:17:30.491 +02:00 [Information] Sending file. Request path: '"/sms-manager/home.html"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\home.html"'
+2016-09-10 23:17:30.493 +02:00 [Information] Request finished in 3.9408ms 200 text/html
+2016-09-10 23:17:30.637 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/bootstrap/css/bootstrap.css  
+2016-09-10 23:17:30.638 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/css/bootstrap.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\bootstrap\css\bootstrap.css"'
+2016-09-10 23:17:30.638 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/font-awesome/css/font-awesome.css  
+2016-09-10 23:17:30.639 +02:00 [Information] Sending file. Request path: '"/lib/font-awesome/css/font-awesome.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\font-awesome\css\font-awesome.css"'
+2016-09-10 23:17:30.640 +02:00 [Information] Request finished in 2.7531ms 200 text/css
+2016-09-10 23:17:30.643 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-busy/angular-busy.css  
+2016-09-10 23:17:30.643 +02:00 [Information] Request finished in 4.6839ms 200 text/css
+2016-09-10 23:17:30.643 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular/angular.js  
+2016-09-10 23:17:30.644 +02:00 [Information] Sending file. Request path: '"/lib/angular-busy/angular-busy.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-busy\angular-busy.css"'
+2016-09-10 23:17:30.644 +02:00 [Information] Sending file. Request path: '"/lib/angular/angular.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular\angular.js"'
+2016-09-10 23:17:30.644 +02:00 [Information] Request finished in 2.1927ms 200 text/css
+2016-09-10 23:17:30.647 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-ui-router/angular-ui-router.js  
+2016-09-10 23:17:30.648 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-busy/angular-busy.js  
+2016-09-10 23:17:30.648 +02:00 [Information] Sending file. Request path: '"/lib/angular-busy/angular-busy.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-busy\angular-busy.js"'
+2016-09-10 23:17:30.649 +02:00 [Information] Sending file. Request path: '"/lib/angular-ui-router/angular-ui-router.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-ui-router\angular-ui-router.js"'
+2016-09-10 23:17:30.649 +02:00 [Information] Request finished in 1.3121ms 200 application/javascript
+2016-09-10 23:17:30.655 +02:00 [Information] Request finished in 7.125ms 200 application/javascript
+2016-09-10 23:17:30.660 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/smsManagerApp.js  
+2016-09-10 23:17:30.662 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/controllers/smsManagerSendController.js  
+2016-09-10 23:17:30.664 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/services/smsManagerService.js  
+2016-09-10 23:17:30.666 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/controllers/smsManagerSendController.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\controllers\smsManagerSendController.js"'
+2016-09-10 23:17:30.666 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/services/smsManagerService.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\services\smsManagerService.js"'
+2016-09-10 23:17:30.668 +02:00 [Information] Request finished in 6.3302ms 200 application/javascript
+2016-09-10 23:17:30.668 +02:00 [Information] Request finished in 4.463ms 200 application/javascript
+2016-09-10 23:17:30.664 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/smsManagerApp.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\smsManagerApp.js"'
+2016-09-10 23:17:30.671 +02:00 [Information] Request finished in 10.7382ms 200 application/javascript
+2016-09-10 23:17:30.706 +02:00 [Information] Request finished in 62.842ms 200 application/javascript
+2016-09-10 23:17:30.744 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/bootstrap/css/bootstrap.css.map  
+2016-09-10 23:17:30.744 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/css/bootstrap.css.map"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\bootstrap\css\bootstrap.css.map"'
+2016-09-10 23:17:30.747 +02:00 [Information] Request finished in 3.4243ms 200 text/plain
+2016-09-10 23:17:30.900 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/views/send.html  
+2016-09-10 23:17:30.900 +02:00 [Information] Sending file. Request path: '"/sms-manager/views/send.html"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\views\send.html"'
+2016-09-10 23:17:30.900 +02:00 [Information] Request finished in 0.8297ms 200 text/html
+2016-09-10 23:17:41.241 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/api/sms/send.json?from=The+Sender&text=Hello+World&to=%2B4917421293388  
+2016-09-10 23:17:41.647 +02:00 [Information] Executing action method "SmsManager.Controllers.SmsController.SendSms (SmsManager)" with arguments (["The Sender", "+4917421293388", "Hello World", "json"]) - ModelState is Valid
+2016-09-10 23:17:42.275 +02:00 [Information] Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2016-09-10 23:17:42.292 +02:00 [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "c"."Id", "c"."Code", "c"."MobileCode", "c"."Name", "c"."SmsPrice"
+FROM "Country" AS "c"
+2016-09-10 23:17:42.375 +02:00 [Information] Sms sent. To: "+4917421293388", From: "The Sender", Message: "Hello World", Status: Failed, Date: 09/10/2016 23:17:42
+2016-09-10 23:17:42.443 +02:00 [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2016-09-10 23:17:42.504 +02:00 [Information] Executed DbCommand (2ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "SmsMessage" ("CountryId", "DateSent", "From", "Message", "Status", "To")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT "Id"
+FROM "SmsMessage"
+WHERE changes() = 1 AND "Id" = last_insert_rowid();
+2016-09-10 23:17:42.569 +02:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2016-09-10 23:17:42.706 +02:00 [Information] Executed action "SmsManager.Controllers.SmsController.SendSms (SmsManager)" in 1265.6944ms
+2016-09-10 23:17:42.709 +02:00 [Information] Request finished in 1467.9722ms 200 application/json; charset=utf-8
+2016-09-10 23:21:17.856 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/home.html  
+2016-09-10 23:21:17.946 +02:00 [Information] Sending file. Request path: '"/sms-manager/home.html"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\home.html"'
+2016-09-10 23:21:17.999 +02:00 [Information] Request finished in 164.3214ms 200 text/html
+2016-09-10 23:21:18.081 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/bootstrap/css/bootstrap.css  
+2016-09-10 23:21:18.082 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/css/bootstrap.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\bootstrap\css\bootstrap.css"'
+2016-09-10 23:21:18.085 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/font-awesome/css/font-awesome.css  
+2016-09-10 23:21:18.086 +02:00 [Information] Sending file. Request path: '"/lib/font-awesome/css/font-awesome.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\font-awesome\css\font-awesome.css"'
+2016-09-10 23:21:18.089 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-busy/angular-busy.css  
+2016-09-10 23:21:18.090 +02:00 [Information] Request finished in 5.1967ms 200 text/css
+2016-09-10 23:21:18.093 +02:00 [Information] Sending file. Request path: '"/lib/angular-busy/angular-busy.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-busy\angular-busy.css"'
+2016-09-10 23:21:18.093 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-ui-router/angular-ui-router.js  
+2016-09-10 23:21:18.094 +02:00 [Information] Request finished in 4.6999ms 200 text/css
+2016-09-10 23:21:18.093 +02:00 [Information] Request finished in 10.9332ms 200 text/css
+2016-09-10 23:21:18.094 +02:00 [Information] Sending file. Request path: '"/lib/angular-ui-router/angular-ui-router.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-ui-router\angular-ui-router.js"'
+2016-09-10 23:21:18.099 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular/angular.js  
+2016-09-10 23:21:18.099 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-busy/angular-busy.js  
+2016-09-10 23:21:18.102 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/controllers/smsManagerSendController.js  
+2016-09-10 23:21:18.103 +02:00 [Information] Sending file. Request path: '"/lib/angular-busy/angular-busy.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-busy\angular-busy.js"'
+2016-09-10 23:21:18.103 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/smsManagerApp.js  
+2016-09-10 23:21:18.103 +02:00 [Information] Request finished in 11.7519ms 200 application/javascript
+2016-09-10 23:21:18.104 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/smsManagerApp.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\smsManagerApp.js"'
+2016-09-10 23:21:18.103 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/controllers/smsManagerSendController.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\controllers\smsManagerSendController.js"'
+2016-09-10 23:21:18.105 +02:00 [Information] Request finished in 9.6035ms 200 application/javascript
+2016-09-10 23:21:18.102 +02:00 [Information] Sending file. Request path: '"/lib/angular/angular.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular\angular.js"'
+2016-09-10 23:21:18.106 +02:00 [Information] Request finished in 3.5052ms 200 application/javascript
+2016-09-10 23:21:18.106 +02:00 [Information] Request finished in 4.0676ms 200 application/javascript
+2016-09-10 23:21:18.130 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/services/smsManagerService.js  
+2016-09-10 23:21:18.130 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/services/smsManagerService.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\services\smsManagerService.js"'
+2016-09-10 23:21:18.131 +02:00 [Information] Request finished in 1.3806ms 200 application/javascript
+2016-09-10 23:21:18.159 +02:00 [Information] Request finished in 63.1614ms 200 application/javascript
+2016-09-10 23:21:18.197 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/bootstrap/css/bootstrap.css.map  
+2016-09-10 23:21:18.197 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/css/bootstrap.css.map"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\bootstrap\css\bootstrap.css.map"'
+2016-09-10 23:21:18.204 +02:00 [Information] Request finished in 7.5442ms 200 text/plain
+2016-09-10 23:21:18.346 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/views/send.html  
+2016-09-10 23:21:18.346 +02:00 [Information] Sending file. Request path: '"/sms-manager/views/send.html"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\views\send.html"'
+2016-09-10 23:21:18.347 +02:00 [Information] Request finished in 0.9171ms 200 text/html
+2016-09-10 23:21:19.909 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/api/sms/send.json?from=The+Sender&text=Hello+World&to=%2B4917421293388  
+2016-09-10 23:21:20.321 +02:00 [Information] Executing action method "SmsManager.Controllers.SmsController.SendSms (SmsManager)" with arguments (["The Sender", "+4917421293388", "Hello World", "json"]) - ModelState is Valid
+2016-09-10 23:21:20.925 +02:00 [Information] Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2016-09-10 23:21:20.942 +02:00 [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "c"."Id", "c"."Code", "c"."MobileCode", "c"."Name", "c"."SmsPrice"
+FROM "Country" AS "c"
+2016-09-10 23:21:21.021 +02:00 [Information] Sms sent. To: "+4917421293388", From: "The Sender", Message: "Hello World", Status: Failed, Date: 09/10/2016 23:21:21
+2016-09-10 23:21:21.090 +02:00 [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2016-09-10 23:21:21.152 +02:00 [Information] Executed DbCommand (2ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "SmsMessage" ("CountryId", "DateSent", "From", "Message", "Status", "To")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT "Id"
+FROM "SmsMessage"
+WHERE changes() = 1 AND "Id" = last_insert_rowid();
+2016-09-10 23:21:21.217 +02:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2016-09-10 23:21:21.360 +02:00 [Information] Executed action "SmsManager.Controllers.SmsController.SendSms (SmsManager)" in 1248.7573ms
+2016-09-10 23:21:21.363 +02:00 [Information] Request finished in 1454.3621ms 200 application/json; charset=utf-8
+2016-09-10 23:24:29.010 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/home.html  
+2016-09-10 23:24:29.011 +02:00 [Information] Sending file. Request path: '"/sms-manager/home.html"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\home.html"'
+2016-09-10 23:24:29.012 +02:00 [Information] Request finished in 1.7739ms 200 text/html
+2016-09-10 23:24:29.107 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/bootstrap/css/bootstrap.css  
+2016-09-10 23:24:29.107 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/css/bootstrap.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\bootstrap\css\bootstrap.css"'
+2016-09-10 23:24:29.109 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/font-awesome/css/font-awesome.css  
+2016-09-10 23:24:29.109 +02:00 [Information] Request finished in 2.2608ms 200 text/css
+2016-09-10 23:24:29.110 +02:00 [Information] Sending file. Request path: '"/lib/font-awesome/css/font-awesome.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\font-awesome\css\font-awesome.css"'
+2016-09-10 23:24:29.111 +02:00 [Information] Request finished in 2.3975ms 200 text/css
+2016-09-10 23:24:29.114 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-busy/angular-busy.css  
+2016-09-10 23:24:29.115 +02:00 [Information] Sending file. Request path: '"/lib/angular-busy/angular-busy.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-busy\angular-busy.css"'
+2016-09-10 23:24:29.118 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-ui-router/angular-ui-router.js  
+2016-09-10 23:24:29.118 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular/angular.js  
+2016-09-10 23:24:29.124 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/controllers/smsManagerSendController.js  
+2016-09-10 23:24:29.125 +02:00 [Information] Sending file. Request path: '"/lib/angular-ui-router/angular-ui-router.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-ui-router\angular-ui-router.js"'
+2016-09-10 23:24:29.126 +02:00 [Information] Sending file. Request path: '"/lib/angular/angular.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular\angular.js"'
+2016-09-10 23:24:29.124 +02:00 [Information] Request finished in 10.4471ms 200 text/css
+2016-09-10 23:24:29.128 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/controllers/smsManagerSendController.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\controllers\smsManagerSendController.js"'
+2016-09-10 23:24:29.116 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-busy/angular-busy.js  
+2016-09-10 23:24:29.131 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/services/smsManagerService.js  
+2016-09-10 23:24:29.132 +02:00 [Information] Request finished in 8.5931ms 200 application/javascript
+2016-09-10 23:24:29.135 +02:00 [Information] Sending file. Request path: '"/lib/angular-busy/angular-busy.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-busy\angular-busy.js"'
+2016-09-10 23:24:29.129 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/smsManagerApp.js  
+2016-09-10 23:24:29.142 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/smsManagerApp.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\smsManagerApp.js"'
+2016-09-10 23:24:29.131 +02:00 [Information] Request finished in 12.6226ms 200 application/javascript
+2016-09-10 23:24:29.136 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/services/smsManagerService.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\services\smsManagerService.js"'
+2016-09-10 23:24:29.145 +02:00 [Information] Request finished in 16.6287ms 200 application/javascript
+2016-09-10 23:24:29.146 +02:00 [Information] Request finished in 15.1487ms 200 application/javascript
+2016-09-10 23:24:29.139 +02:00 [Information] Request finished in 24.0748ms 200 application/javascript
+2016-09-10 23:24:29.184 +02:00 [Information] Request finished in 66.0841ms 200 application/javascript
+2016-09-10 23:24:29.227 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/bootstrap/css/bootstrap.css.map  
+2016-09-10 23:24:29.228 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/css/bootstrap.css.map"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\bootstrap\css\bootstrap.css.map"'
+2016-09-10 23:24:29.231 +02:00 [Information] Request finished in 3.9346ms 200 text/plain
+2016-09-10 23:24:29.370 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/views/send.html  
+2016-09-10 23:24:29.370 +02:00 [Information] Sending file. Request path: '"/sms-manager/views/send.html"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\views\send.html"'
+2016-09-10 23:24:29.371 +02:00 [Information] Request finished in 0.8912ms 200 text/html
+2016-09-10 23:24:30.513 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/api/sms/send.json?from=The+Sender&text=Hello+World&to=%2B4917421293388  
+2016-09-10 23:24:30.515 +02:00 [Information] Executing action method "SmsManager.Controllers.SmsController.SendSms (SmsManager)" with arguments (["The Sender", "+4917421293388", "Hello World", "json"]) - ModelState is Valid
+2016-09-10 23:24:30.535 +02:00 [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2016-09-10 23:24:30.537 +02:00 [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "c"."Id", "c"."Code", "c"."MobileCode", "c"."Name", "c"."SmsPrice"
+FROM "Country" AS "c"
+2016-09-10 23:24:30.540 +02:00 [Information] Sms sent. To: "+4917421293388", From: "The Sender", Message: "Hello World", Status: Success, Date: 09/10/2016 23:24:30
+2016-09-10 23:24:30.542 +02:00 [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2016-09-10 23:24:30.552 +02:00 [Information] Executed DbCommand (2ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "SmsMessage" ("CountryId", "DateSent", "From", "Message", "Status", "To")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT "Id"
+FROM "SmsMessage"
+WHERE changes() = 1 AND "Id" = last_insert_rowid();
+2016-09-10 23:24:30.578 +02:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2016-09-10 23:24:30.578 +02:00 [Information] Executed action "SmsManager.Controllers.SmsController.SendSms (SmsManager)" in 64.2243ms
+2016-09-10 23:24:30.579 +02:00 [Information] Request finished in 65.9736ms 200 application/json; charset=utf-8
+2016-09-10 23:29:13.394 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/home.html  
+2016-09-10 23:29:13.394 +02:00 [Information] Sending file. Request path: '"/sms-manager/home.html"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\home.html"'
+2016-09-10 23:29:13.395 +02:00 [Information] Request finished in 1.3289ms 200 text/html
+2016-09-10 23:29:13.479 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/font-awesome/css/font-awesome.css  
+2016-09-10 23:29:13.480 +02:00 [Information] Sending file. Request path: '"/lib/font-awesome/css/font-awesome.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\font-awesome\css\font-awesome.css"'
+2016-09-10 23:29:13.482 +02:00 [Information] Request finished in 1.9977ms 200 text/css
+2016-09-10 23:29:13.482 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/bootstrap/css/bootstrap.css  
+2016-09-10 23:29:13.483 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/css/bootstrap.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\bootstrap\css\bootstrap.css"'
+2016-09-10 23:29:13.489 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular/angular.js  
+2016-09-10 23:29:13.492 +02:00 [Information] Sending file. Request path: '"/lib/angular/angular.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular\angular.js"'
+2016-09-10 23:29:13.486 +02:00 [Information] Request finished in 4.9873ms 200 text/css
+2016-09-10 23:29:13.493 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-busy/angular-busy.css  
+2016-09-10 23:29:13.495 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-busy/angular-busy.js  
+2016-09-10 23:29:13.500 +02:00 [Information] Sending file. Request path: '"/lib/angular-busy/angular-busy.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-busy\angular-busy.css"'
+2016-09-10 23:29:13.494 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-ui-router/angular-ui-router.js  
+2016-09-10 23:29:13.500 +02:00 [Information] Sending file. Request path: '"/lib/angular-busy/angular-busy.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-busy\angular-busy.js"'
+2016-09-10 23:29:13.501 +02:00 [Information] Request finished in 6.6726ms 200 application/javascript
+2016-09-10 23:29:13.502 +02:00 [Information] Sending file. Request path: '"/lib/angular-ui-router/angular-ui-router.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-ui-router\angular-ui-router.js"'
+2016-09-10 23:29:13.497 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/smsManagerApp.js  
+2016-09-10 23:29:13.510 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/controllers/smsManagerSendController.js  
+2016-09-10 23:29:13.510 +02:00 [Information] Request finished in 13.2384ms 200 text/css
+2016-09-10 23:29:13.512 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/smsManagerApp.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\smsManagerApp.js"'
+2016-09-10 23:29:13.512 +02:00 [Information] Request finished in 18.3674ms 200 application/javascript
+2016-09-10 23:29:13.514 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/controllers/smsManagerSendController.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\controllers\smsManagerSendController.js"'
+2016-09-10 23:29:13.515 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/services/smsManagerService.js  
+2016-09-10 23:29:13.531 +02:00 [Information] Request finished in 30.6785ms 200 application/javascript
+2016-09-10 23:29:13.532 +02:00 [Information] Request finished in 20.1003ms 200 application/javascript
+2016-09-10 23:29:13.532 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/services/smsManagerService.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\services\smsManagerService.js"'
+2016-09-10 23:29:13.534 +02:00 [Information] Request finished in 19.7354ms 200 application/javascript
+2016-09-10 23:29:13.564 +02:00 [Information] Request finished in 74.8234ms 200 application/javascript
+2016-09-10 23:29:13.609 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/bootstrap/css/bootstrap.css.map  
+2016-09-10 23:29:13.610 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/css/bootstrap.css.map"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\bootstrap\css\bootstrap.css.map"'
+2016-09-10 23:29:13.617 +02:00 [Information] Request finished in 7.7281ms 200 text/plain
+2016-09-10 23:29:13.779 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/views/send.html  
+2016-09-10 23:29:13.779 +02:00 [Information] Sending file. Request path: '"/sms-manager/views/send.html"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\views\send.html"'
+2016-09-10 23:29:13.780 +02:00 [Information] Request finished in 1.3289ms 200 text/html
+2016-09-10 23:29:49.742 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/home.html  
+2016-09-10 23:29:49.743 +02:00 [Information] Sending file. Request path: '"/sms-manager/home.html"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\home.html"'
+2016-09-10 23:29:49.745 +02:00 [Information] Request finished in 3.5454ms 200 text/html
+2016-09-10 23:29:49.850 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/bootstrap/css/bootstrap.css  
+2016-09-10 23:29:49.851 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/css/bootstrap.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\bootstrap\css\bootstrap.css"'
+2016-09-10 23:29:49.853 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/font-awesome/css/font-awesome.css  
+2016-09-10 23:29:49.853 +02:00 [Information] Request finished in 3.2527ms 200 text/css
+2016-09-10 23:29:49.854 +02:00 [Information] Sending file. Request path: '"/lib/font-awesome/css/font-awesome.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\font-awesome\css\font-awesome.css"'
+2016-09-10 23:29:49.854 +02:00 [Information] Request finished in 1.4348ms 200 text/css
+2016-09-10 23:29:49.856 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-busy/angular-busy.css  
+2016-09-10 23:29:49.857 +02:00 [Information] Sending file. Request path: '"/lib/angular-busy/angular-busy.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-busy\angular-busy.css"'
+2016-09-10 23:29:49.858 +02:00 [Information] Request finished in 1.9981ms 200 text/css
+2016-09-10 23:29:49.860 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-ui-router/angular-ui-router.js  
+2016-09-10 23:29:49.860 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular/angular.js  
+2016-09-10 23:29:49.861 +02:00 [Information] Sending file. Request path: '"/lib/angular-ui-router/angular-ui-router.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-ui-router\angular-ui-router.js"'
+2016-09-10 23:29:49.861 +02:00 [Information] Sending file. Request path: '"/lib/angular/angular.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular\angular.js"'
+2016-09-10 23:29:49.863 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-busy/angular-busy.js  
+2016-09-10 23:29:49.864 +02:00 [Information] Sending file. Request path: '"/lib/angular-busy/angular-busy.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-busy\angular-busy.js"'
+2016-09-10 23:29:49.867 +02:00 [Information] Request finished in 4.036ms 200 application/javascript
+2016-09-10 23:29:49.869 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/controllers/smsManagerSendController.js  
+2016-09-10 23:29:49.870 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/smsManagerApp.js  
+2016-09-10 23:29:49.870 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/controllers/smsManagerSendController.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\controllers\smsManagerSendController.js"'
+2016-09-10 23:29:49.870 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/smsManagerApp.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\smsManagerApp.js"'
+2016-09-10 23:29:49.871 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/services/smsManagerService.js  
+2016-09-10 23:29:49.871 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/services/smsManagerService.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\services\smsManagerService.js"'
+2016-09-10 23:29:49.871 +02:00 [Information] Request finished in 1.9381ms 200 application/javascript
+2016-09-10 23:29:49.871 +02:00 [Information] Request finished in 2.3967ms 200 application/javascript
+2016-09-10 23:29:49.872 +02:00 [Information] Request finished in 1.3301ms 200 application/javascript
+2016-09-10 23:29:49.879 +02:00 [Information] Request finished in 18.7558ms 200 application/javascript
+2016-09-10 23:29:49.930 +02:00 [Information] Request finished in 69.9608ms 200 application/javascript
+2016-09-10 23:29:49.962 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/bootstrap/css/bootstrap.css.map  
+2016-09-10 23:29:49.962 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/css/bootstrap.css.map"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\bootstrap\css\bootstrap.css.map"'
+2016-09-10 23:29:49.970 +02:00 [Information] Request finished in 8.6206ms 200 text/plain
+2016-09-10 23:29:50.127 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/views/send.html  
+2016-09-10 23:29:50.128 +02:00 [Information] Sending file. Request path: '"/sms-manager/views/send.html"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\views\send.html"'
+2016-09-10 23:29:50.128 +02:00 [Information] Request finished in 0.8974ms 200 text/html
+2016-09-10 23:29:51.703 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/views/browse.html  
+2016-09-10 23:29:51.703 +02:00 [Information] Sending file. Request path: '"/sms-manager/views/browse.html"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\views\browse.html"'
+2016-09-10 23:29:51.704 +02:00 [Information] Request finished in 1.0538ms 200 text/html
+2016-09-10 23:46:56.307 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/home.html  
+2016-09-10 23:46:56.397 +02:00 [Information] Sending file. Request path: '"/sms-manager/home.html"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\home.html"'
+2016-09-10 23:46:56.452 +02:00 [Information] Request finished in 165.0526ms 200 text/html
+2016-09-10 23:46:56.528 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/bootstrap/css/bootstrap.css  
+2016-09-10 23:46:56.529 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/css/bootstrap.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\bootstrap\css\bootstrap.css"'
+2016-09-10 23:46:56.531 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/font-awesome/css/font-awesome.css  
+2016-09-10 23:46:56.533 +02:00 [Information] Sending file. Request path: '"/lib/font-awesome/css/font-awesome.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\font-awesome\css\font-awesome.css"'
+2016-09-10 23:46:56.537 +02:00 [Information] Request finished in 3.5602ms 200 text/css
+2016-09-10 23:46:56.537 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular/angular.js  
+2016-09-10 23:46:56.537 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-busy/angular-busy.css  
+2016-09-10 23:46:56.538 +02:00 [Information] Sending file. Request path: '"/lib/angular/angular.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular\angular.js"'
+2016-09-10 23:46:56.542 +02:00 [Information] Sending file. Request path: '"/lib/angular-busy/angular-busy.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-busy\angular-busy.css"'
+2016-09-10 23:46:56.543 +02:00 [Information] Request finished in 12.6789ms 200 text/css
+2016-09-10 23:46:56.547 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-busy/angular-busy.js  
+2016-09-10 23:46:56.547 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-ui-router/angular-ui-router.js  
+2016-09-10 23:46:56.547 +02:00 [Information] Sending file. Request path: '"/lib/angular-busy/angular-busy.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-busy\angular-busy.js"'
+2016-09-10 23:46:56.548 +02:00 [Information] Request finished in 12.1821ms 200 text/css
+2016-09-10 23:46:56.550 +02:00 [Information] Request finished in 2.953ms 200 application/javascript
+2016-09-10 23:46:56.550 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/smsManagerApp.js  
+2016-09-10 23:46:56.553 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/smsManagerApp.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\smsManagerApp.js"'
+2016-09-10 23:46:56.553 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/controllers/smsManagerSendController.js  
+2016-09-10 23:46:56.554 +02:00 [Information] Request finished in 4.5952ms 200 application/javascript
+2016-09-10 23:46:56.554 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/controllers/smsManagerSendController.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\controllers\smsManagerSendController.js"'
+2016-09-10 23:46:56.555 +02:00 [Information] Request finished in 2.0211ms 200 application/javascript
+2016-09-10 23:46:56.549 +02:00 [Information] Sending file. Request path: '"/lib/angular-ui-router/angular-ui-router.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-ui-router\angular-ui-router.js"'
+2016-09-10 23:46:56.559 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/services/smsManagerService.js  
+2016-09-10 23:46:56.561 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/services/smsManagerService.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\services\smsManagerService.js"'
+2016-09-10 23:46:56.562 +02:00 [Information] Request finished in 14.959ms 200 application/javascript
+2016-09-10 23:46:56.563 +02:00 [Information] Request finished in 3.7959ms 200 application/javascript
+2016-09-10 23:46:56.606 +02:00 [Information] Request finished in 69.857ms 200 application/javascript
+2016-09-10 23:46:56.639 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/bootstrap/css/bootstrap.css.map  
+2016-09-10 23:46:56.640 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/css/bootstrap.css.map"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\bootstrap\css\bootstrap.css.map"'
+2016-09-10 23:46:56.645 +02:00 [Information] Request finished in 6.1918ms 200 text/plain
+2016-09-10 23:46:56.793 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/views/send.html  
+2016-09-10 23:46:56.793 +02:00 [Information] Sending file. Request path: '"/sms-manager/views/send.html"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\views\send.html"'
+2016-09-10 23:46:56.794 +02:00 [Information] Request finished in 1.0037ms 200 text/html
+2016-09-10 23:46:57.590 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/views/browse.html  
+2016-09-10 23:46:57.590 +02:00 [Information] Sending file. Request path: '"/sms-manager/views/browse.html"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\views\browse.html"'
+2016-09-10 23:46:57.591 +02:00 [Information] Request finished in 1.0559ms 200 text/html
+2016-09-10 23:47:27.767 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/home.html  
+2016-09-10 23:47:27.768 +02:00 [Information] Sending file. Request path: '"/sms-manager/home.html"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\home.html"'
+2016-09-10 23:47:27.770 +02:00 [Information] Request finished in 3.3122ms 200 text/html
+2016-09-10 23:47:27.864 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/bootstrap/css/bootstrap.css  
+2016-09-10 23:47:27.865 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/css/bootstrap.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\bootstrap\css\bootstrap.css"'
+2016-09-10 23:47:27.867 +02:00 [Information] Request finished in 2.3943ms 200 text/css
+2016-09-10 23:47:27.869 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/font-awesome/css/font-awesome.css  
+2016-09-10 23:47:27.869 +02:00 [Information] Sending file. Request path: '"/lib/font-awesome/css/font-awesome.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\font-awesome\css\font-awesome.css"'
+2016-09-10 23:47:27.870 +02:00 [Information] Request finished in 0.952ms 200 text/css
+2016-09-10 23:47:27.872 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-busy/angular-busy.css  
+2016-09-10 23:47:27.872 +02:00 [Information] Sending file. Request path: '"/lib/angular-busy/angular-busy.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-busy\angular-busy.css"'
+2016-09-10 23:47:27.873 +02:00 [Information] Request finished in 1.0538ms 200 text/css
+2016-09-10 23:47:27.875 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular/angular.js  
+2016-09-10 23:47:27.876 +02:00 [Information] Sending file. Request path: '"/lib/angular/angular.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular\angular.js"'
+2016-09-10 23:47:27.878 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-busy/angular-busy.js  
+2016-09-10 23:47:27.881 +02:00 [Information] Sending file. Request path: '"/lib/angular-busy/angular-busy.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-busy\angular-busy.js"'
+2016-09-10 23:47:27.878 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-ui-router/angular-ui-router.js  
+2016-09-10 23:47:27.884 +02:00 [Information] Request finished in 5.8728ms 200 application/javascript
+2016-09-10 23:47:27.884 +02:00 [Information] Sending file. Request path: '"/lib/angular-ui-router/angular-ui-router.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-ui-router\angular-ui-router.js"'
+2016-09-10 23:47:27.886 +02:00 [Information] Request finished in 7.7351ms 200 application/javascript
+2016-09-10 23:47:27.886 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/services/smsManagerService.js  
+2016-09-10 23:47:27.887 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/controllers/smsManagerSendController.js  
+2016-09-10 23:47:27.887 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/smsManagerApp.js  
+2016-09-10 23:47:27.892 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/controllers/smsManagerSendController.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\controllers\smsManagerSendController.js"'
+2016-09-10 23:47:27.890 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/services/smsManagerService.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\services\smsManagerService.js"'
+2016-09-10 23:47:27.893 +02:00 [Information] Request finished in 6.7748ms 200 application/javascript
+2016-09-10 23:47:27.893 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/smsManagerApp.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\smsManagerApp.js"'
+2016-09-10 23:47:27.895 +02:00 [Information] Request finished in 8.8242ms 200 application/javascript
+2016-09-10 23:47:27.896 +02:00 [Information] Request finished in 9.0804ms 200 application/javascript
+2016-09-10 23:47:27.934 +02:00 [Information] Request finished in 59.0748ms 200 application/javascript
+2016-09-10 23:47:27.971 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/bootstrap/css/bootstrap.css.map  
+2016-09-10 23:47:27.972 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/css/bootstrap.css.map"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\bootstrap\css\bootstrap.css.map"'
+2016-09-10 23:47:27.978 +02:00 [Information] Request finished in 7.2564ms 200 text/plain
+2016-09-10 23:47:28.125 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/views/browse.html  
+2016-09-10 23:47:28.126 +02:00 [Information] Sending file. Request path: '"/sms-manager/views/browse.html"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\views\browse.html"'
+2016-09-10 23:47:28.126 +02:00 [Information] Request finished in 0.9138ms 200 text/html
+2016-09-10 23:48:11.209 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/home.html  
+2016-09-10 23:48:11.211 +02:00 [Information] Sending file. Request path: '"/sms-manager/home.html"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\home.html"'
+2016-09-10 23:48:11.212 +02:00 [Information] Request finished in 3.6977ms 200 text/html
+2016-09-10 23:48:11.315 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/bootstrap/css/bootstrap.css  
+2016-09-10 23:48:11.316 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/css/bootstrap.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\bootstrap\css\bootstrap.css"'
+2016-09-10 23:48:11.317 +02:00 [Information] Request finished in 2.2395ms 200 text/css
+2016-09-10 23:48:11.319 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/font-awesome/css/font-awesome.css  
+2016-09-10 23:48:11.320 +02:00 [Information] Sending file. Request path: '"/lib/font-awesome/css/font-awesome.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\font-awesome\css\font-awesome.css"'
+2016-09-10 23:48:11.320 +02:00 [Information] Request finished in 1.1462ms 200 text/css
+2016-09-10 23:48:11.322 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-busy/angular-busy.css  
+2016-09-10 23:48:11.323 +02:00 [Information] Sending file. Request path: '"/lib/angular-busy/angular-busy.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-busy\angular-busy.css"'
+2016-09-10 23:48:11.323 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular/angular.js  
+2016-09-10 23:48:11.324 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-ui-router/angular-ui-router.js  
+2016-09-10 23:48:11.325 +02:00 [Information] Sending file. Request path: '"/lib/angular/angular.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular\angular.js"'
+2016-09-10 23:48:11.325 +02:00 [Information] Sending file. Request path: '"/lib/angular-ui-router/angular-ui-router.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-ui-router\angular-ui-router.js"'
+2016-09-10 23:48:11.326 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-busy/angular-busy.js  
+2016-09-10 23:48:11.326 +02:00 [Information] Request finished in 4.0455ms 200 text/css
+2016-09-10 23:48:11.327 +02:00 [Information] Sending file. Request path: '"/lib/angular-busy/angular-busy.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-busy\angular-busy.js"'
+2016-09-10 23:48:11.333 +02:00 [Information] Request finished in 7.4933ms 200 application/javascript
+2016-09-10 23:48:11.341 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/controllers/smsManagerSendController.js  
+2016-09-10 23:48:11.345 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/smsManagerApp.js  
+2016-09-10 23:48:11.345 +02:00 [Information] Request finished in 20.7818ms 200 application/javascript
+2016-09-10 23:48:11.345 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/controllers/smsManagerSendController.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\controllers\smsManagerSendController.js"'
+2016-09-10 23:48:11.347 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/controllers/smsManagerStatisticsController.js  
+2016-09-10 23:48:11.346 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/smsManagerApp.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\smsManagerApp.js"'
+2016-09-10 23:48:11.342 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/controllers/smsManagerBrowseController.js  
+2016-09-10 23:48:11.359 +02:00 [Information] Request finished in 14.8084ms 200 application/javascript
+2016-09-10 23:48:11.360 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/controllers/smsManagerBrowseController.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\controllers\smsManagerBrowseController.js"'
+2016-09-10 23:48:11.365 +02:00 [Information] Request finished in 23.2402ms 200 application/javascript
+2016-09-10 23:48:11.351 +02:00 [Information] Request finished in 11.7161ms 200 application/javascript
+2016-09-10 23:48:11.370 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/services/smsManagerService.js  
+2016-09-10 23:48:11.372 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/services/smsManagerService.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\services\smsManagerService.js"'
+2016-09-10 23:48:11.375 +02:00 [Information] Request finished in 4.3275ms 200 application/javascript
+2016-09-10 23:48:11.413 +02:00 [Information] Request finished in 89.4405ms 200 application/javascript
+2016-09-10 23:48:11.448 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/bootstrap/css/bootstrap.css.map  
+2016-09-10 23:48:11.448 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/css/bootstrap.css.map"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\bootstrap\css\bootstrap.css.map"'
+2016-09-10 23:48:11.453 +02:00 [Information] Request finished in 4.8645ms 200 text/plain
+2016-09-10 23:48:11.578 +02:00 [Information] Request finished in 231.0574ms 404 
+2016-09-10 23:48:11.670 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/views/browse.html  
+2016-09-10 23:48:11.670 +02:00 [Information] Sending file. Request path: '"/sms-manager/views/browse.html"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\views\browse.html"'
+2016-09-10 23:48:11.671 +02:00 [Information] Request finished in 1.4533ms 200 text/html
+2016-09-10 23:48:11.686 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/api/sms/send.json?dateTimeFrom=2015-03-01T11:30:20&dateTimeTo=2015-03-02T09:20:22&skip=50&take=100  
+2016-09-10 23:48:11.952 +02:00 [Information] Executing action method "SmsManager.Controllers.SmsController.SendSms (SmsManager)" with arguments (["", "", "", "json"]) - ModelState is Valid
+2016-09-10 23:48:12.561 +02:00 [Information] Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2016-09-10 23:48:12.577 +02:00 [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "c"."Id", "c"."Code", "c"."MobileCode", "c"."Name", "c"."SmsPrice"
+FROM "Country" AS "c"
+2016-09-10 23:48:12.707 +02:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2016-09-10 23:48:12.724 +02:00 [Information] Executed action "SmsManager.Controllers.SmsController.SendSms (SmsManager)" in 982.2639ms
+2016-09-10 23:48:12.725 +02:00 [Information] Request finished in 1039.4601ms 500 text/plain; charset=utf-8
+2016-09-10 23:49:04.916 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5831/  0
+2016-09-10 23:49:04.916 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/default.html  
+2016-09-10 23:49:05.057 +02:00 [Information] Request finished in 182.9524ms 200 
+2016-09-10 23:49:05.088 +02:00 [Information] The file "/default.html" was not modified
+2016-09-10 23:49:05.102 +02:00 [Information] Request finished in 251.6509ms 304 text/html
+2016-09-10 23:49:08.023 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/home.html  
+2016-09-10 23:49:08.034 +02:00 [Information] Sending file. Request path: '"/sms-manager/home.html"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\home.html"'
+2016-09-10 23:49:08.056 +02:00 [Information] Request finished in 34.4395ms 200 text/html
+2016-09-10 23:49:08.137 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/bootstrap/css/bootstrap.css  
+2016-09-10 23:49:08.139 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/font-awesome/css/font-awesome.css  
+2016-09-10 23:49:08.165 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-busy/angular-busy.css  
+2016-09-10 23:49:08.189 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular/angular.js  
+2016-09-10 23:49:08.166 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/css/bootstrap.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\bootstrap\css\bootstrap.css"'
+2016-09-10 23:49:08.214 +02:00 [Information] Sending file. Request path: '"/lib/font-awesome/css/font-awesome.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\font-awesome\css\font-awesome.css"'
+2016-09-10 23:49:08.214 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-ui-router/angular-ui-router.js  
+2016-09-10 23:49:08.237 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-busy/angular-busy.js  
+2016-09-10 23:49:08.262 +02:00 [Information] Sending file. Request path: '"/lib/angular-ui-router/angular-ui-router.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-ui-router\angular-ui-router.js"'
+2016-09-10 23:49:08.286 +02:00 [Information] Sending file. Request path: '"/lib/angular-busy/angular-busy.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-busy\angular-busy.js"'
+2016-09-10 23:49:08.288 +02:00 [Information] Sending file. Request path: '"/lib/angular/angular.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular\angular.js"'
+2016-09-10 23:49:08.288 +02:00 [Information] Sending file. Request path: '"/lib/angular-busy/angular-busy.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-busy\angular-busy.css"'
+2016-09-10 23:49:08.290 +02:00 [Information] Request finished in 124.4244ms 200 text/css
+2016-09-10 23:49:08.296 +02:00 [Information] Request finished in 149.3783ms 200 text/css
+2016-09-10 23:49:08.300 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/smsManagerApp.js  
+2016-09-10 23:49:08.302 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/controllers/smsManagerSendController.js  
+2016-09-10 23:49:08.306 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/smsManagerApp.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\smsManagerApp.js"'
+2016-09-10 23:49:08.318 +02:00 [Information] Request finished in 74.9728ms 200 application/javascript
+2016-09-10 23:49:08.346 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/controllers/smsManagerBrowseController.js  
+2016-09-10 23:49:08.350 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/controllers/smsManagerSendController.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\controllers\smsManagerSendController.js"'
+2016-09-10 23:49:08.354 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/controllers/smsManagerBrowseController.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\controllers\smsManagerBrowseController.js"'
+2016-09-10 23:49:08.358 +02:00 [Information] Request finished in 160.585ms 200 application/javascript
+2016-09-10 23:49:08.362 +02:00 [Information] Request finished in 210.9673ms 200 text/css
+2016-09-10 23:49:08.366 +02:00 [Information] Request finished in 50.8006ms 200 application/javascript
+2016-09-10 23:49:08.370 +02:00 [Information] Request finished in 41.4073ms 200 application/javascript
+2016-09-10 23:49:08.373 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/services/smsManagerService.js  
+2016-09-10 23:49:08.376 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/services/smsManagerService.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\services\smsManagerService.js"'
+2016-09-10 23:49:08.378 +02:00 [Information] Request finished in 24.5507ms 200 application/javascript
+2016-09-10 23:49:08.381 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/controllers/smsManagerStatisticsController.js  
+2016-09-10 23:49:08.385 +02:00 [Information] Request finished in 16.0183ms 200 application/javascript
+2016-09-10 23:49:08.391 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/bootstrap/css/bootstrap.css.map  
+2016-09-10 23:49:08.394 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/css/bootstrap.css.map"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\bootstrap\css\bootstrap.css.map"'
+2016-09-10 23:49:08.396 +02:00 [Information] Request finished in 228.7756ms 200 application/javascript
+2016-09-10 23:49:08.405 +02:00 [Information] Request finished in 12.3086ms 200 text/plain
+2016-09-10 23:49:08.613 +02:00 [Information] Request finished in 233.1857ms 404 
+2016-09-10 23:49:08.695 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/views/browse.html  
+2016-09-10 23:49:08.698 +02:00 [Information] Sending file. Request path: '"/sms-manager/views/browse.html"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\views\browse.html"'
+2016-09-10 23:49:08.701 +02:00 [Information] Request finished in 5.9496ms 200 text/html
+2016-09-10 23:49:08.717 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/api/sms/send.json?dateTimeFrom=2015-03-01T11:30:20&dateTimeTo=2015-03-02T09:20:22&skip=50&take=100  
+2016-09-10 23:49:09.045 +02:00 [Information] Executing action method "SmsManager.Controllers.SmsController.SendSms (SmsManager)" with arguments (["", "", "", "json"]) - ModelState is Valid
+2016-09-10 23:49:15.698 +02:00 [Information] Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2016-09-10 23:49:15.717 +02:00 [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "c"."Id", "c"."Code", "c"."MobileCode", "c"."Name", "c"."SmsPrice"
+FROM "Country" AS "c"
+2016-09-10 23:49:17.581 +02:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2016-09-10 23:49:17.599 +02:00 [Information] Executed action "SmsManager.Controllers.SmsController.SendSms (SmsManager)" in 8822.8744ms
+2016-09-10 23:49:17.602 +02:00 [Information] Request finished in 8885.3543ms 500 text/plain; charset=utf-8
+2016-09-10 23:49:40.237 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/home.html  
+2016-09-10 23:49:40.242 +02:00 [Information] Sending file. Request path: '"/sms-manager/home.html"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\home.html"'
+2016-09-10 23:49:40.247 +02:00 [Information] Request finished in 9.9356ms 200 text/html
+2016-09-10 23:49:40.413 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/bootstrap/css/bootstrap.css  
+2016-09-10 23:49:40.482 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-ui-router/angular-ui-router.js  
+2016-09-10 23:49:40.482 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/font-awesome/css/font-awesome.css  
+2016-09-10 23:49:40.483 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-busy/angular-busy.js  
+2016-09-10 23:49:40.509 +02:00 [Information] Sending file. Request path: '"/lib/angular-ui-router/angular-ui-router.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-ui-router\angular-ui-router.js"'
+2016-09-10 23:49:40.535 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular/angular.js  
+2016-09-10 23:49:40.559 +02:00 [Information] Sending file. Request path: '"/lib/angular-busy/angular-busy.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-busy\angular-busy.js"'
+2016-09-10 23:49:40.562 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-busy/angular-busy.css  
+2016-09-10 23:49:40.607 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/css/bootstrap.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\bootstrap\css\bootstrap.css"'
+2016-09-10 23:49:40.631 +02:00 [Information] Request finished in 125.1548ms 200 application/javascript
+2016-09-10 23:49:40.609 +02:00 [Information] Sending file. Request path: '"/lib/angular/angular.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular\angular.js"'
+2016-09-10 23:49:40.675 +02:00 [Information] Sending file. Request path: '"/lib/font-awesome/css/font-awesome.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\font-awesome\css\font-awesome.css"'
+2016-09-10 23:49:40.676 +02:00 [Information] Sending file. Request path: '"/lib/angular-busy/angular-busy.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-busy\angular-busy.css"'
+2016-09-10 23:49:40.698 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/smsManagerApp.js  
+2016-09-10 23:49:40.722 +02:00 [Information] Request finished in 285.6967ms 200 text/css
+2016-09-10 23:49:40.723 +02:00 [Information] Request finished in 285.1724ms 200 text/css
+2016-09-10 23:49:40.747 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/controllers/smsManagerStatisticsController.js  
+2016-09-10 23:49:40.747 +02:00 [Information] Request finished in 389.4013ms 200 text/css
+2016-09-10 23:49:40.750 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/smsManagerApp.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\smsManagerApp.js"'
+2016-09-10 23:49:40.752 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/services/smsManagerService.js  
+2016-09-10 23:49:40.774 +02:00 [Information] Request finished in 27.0074ms 404 
+2016-09-10 23:49:40.781 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/controllers/smsManagerSendController.js  
+2016-09-10 23:49:40.806 +02:00 [Information] Request finished in 236.5152ms 200 application/javascript
+2016-09-10 23:49:40.807 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/controllers/smsManagerSendController.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\controllers\smsManagerSendController.js"'
+2016-09-10 23:49:40.810 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/controllers/smsManagerBrowseController.js  
+2016-09-10 23:49:40.832 +02:00 [Information] Request finished in 100.111ms 200 application/javascript
+2016-09-10 23:49:40.833 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/services/smsManagerService.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\services\smsManagerService.js"'
+2016-09-10 23:49:40.837 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/bootstrap/css/bootstrap.css.map  
+2016-09-10 23:49:40.859 +02:00 [Information] Request finished in 86.1791ms 200 application/javascript
+2016-09-10 23:49:40.861 +02:00 [Information] Request finished in 85.6667ms 200 application/javascript
+2016-09-10 23:49:40.861 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/css/bootstrap.css.map"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\bootstrap\css\bootstrap.css.map"'
+2016-09-10 23:49:40.884 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/controllers/smsManagerBrowseController.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\controllers\smsManagerBrowseController.js"'
+2016-09-10 23:49:40.885 +02:00 [Information] Request finished in 423.3958ms 200 application/javascript
+2016-09-10 23:49:40.890 +02:00 [Information] Request finished in 79.0389ms 200 application/javascript
+2016-09-10 23:49:40.893 +02:00 [Information] Request finished in 58.2233ms 200 text/plain
+2016-09-10 23:49:40.920 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/controllers/smsManagerStatisticsController.js  
+2016-09-10 23:49:40.922 +02:00 [Information] Request finished in 2.1438ms 404 
+2016-09-10 23:49:41.010 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/views/browse.html  
+2016-09-10 23:49:41.012 +02:00 [Information] Sending file. Request path: '"/sms-manager/views/browse.html"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\views\browse.html"'
+2016-09-10 23:49:41.016 +02:00 [Information] Request finished in 5.466ms 200 text/html
+2016-09-10 23:49:41.031 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/api/sms/sent.json?dateTimeFrom=2015-03-01T11:30:20&dateTimeTo=2015-03-02T09:20:22&skip=50&take=100  
+2016-09-10 23:49:41.037 +02:00 [Information] Executing action method "SmsManager.Controllers.SmsController.GetSentSMS (SmsManager)" with arguments (["2015-03-01T11:30:20", "2015-03-02T09:20:22", "50", "100"]) - ModelState is Valid
+2016-09-10 23:49:43.376 +02:00 [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2016-09-10 23:49:43.378 +02:00 [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "s"."Id", "s"."CountryId", "s"."DateSent", "s"."From", "s"."Message", "s"."Status", "s"."To"
+FROM "SmsMessage" AS "s"
+2016-09-10 23:49:43.400 +02:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2016-09-10 23:49:59.717 +02:00 [Error] Connection id ""0HKUPOH4CR9V2"": An unhandled exception was thrown by the application.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SmsManager.Controllers.SmsController.<>c.<GetSentSMS>b__3_0(SmsMessage x) in D:\Projects\InterviewProjects\interview-projects\src\SmsManager\Controllers\SmsController.cs:line 108
+   at System.Linq.Enumerable.SelectListIterator`2.MoveNext()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter.WriteObject(TextWriter writer, Object value)
+   at Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter.<WriteResponseBodyAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeResultAsync>d__32.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeResultFilterAsync>d__31.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeAllResultFiltersAsync>d__29.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeResourceFilterAsync>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeAsync>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.<Invoke>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.Internal.RequestServicesContainerMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Frame`1.<RequestProcessingAsync>d__2.MoveNext()
+2016-09-10 23:49:59.727 +02:00 [Information] Request finished in 18695.7703ms 200 application/json; charset=utf-8
+2016-09-10 23:50:09.339 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/home.html  
+2016-09-10 23:50:09.342 +02:00 [Information] Sending file. Request path: '"/sms-manager/home.html"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\home.html"'
+2016-09-10 23:50:09.345 +02:00 [Information] Request finished in 5.2968ms 200 text/html
+2016-09-10 23:50:09.435 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/bootstrap/css/bootstrap.css  
+2016-09-10 23:50:09.438 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/css/bootstrap.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\bootstrap\css\bootstrap.css"'
+2016-09-10 23:50:09.446 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-busy/angular-busy.css  
+2016-09-10 23:50:09.446 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/font-awesome/css/font-awesome.css  
+2016-09-10 23:50:09.450 +02:00 [Information] Sending file. Request path: '"/lib/angular-busy/angular-busy.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-busy\angular-busy.css"'
+2016-09-10 23:50:09.524 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-ui-router/angular-ui-router.js  
+2016-09-10 23:50:09.525 +02:00 [Information] Request finished in 58.477ms 200 text/css
+2016-09-10 23:50:09.546 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular/angular.js  
+2016-09-10 23:50:09.548 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/controllers/smsManagerSendController.js  
+2016-09-10 23:50:09.525 +02:00 [Information] Sending file. Request path: '"/lib/font-awesome/css/font-awesome.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\font-awesome\css\font-awesome.css"'
+2016-09-10 23:50:09.570 +02:00 [Information] Sending file. Request path: '"/lib/angular-ui-router/angular-ui-router.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-ui-router\angular-ui-router.js"'
+2016-09-10 23:50:09.571 +02:00 [Information] Sending file. Request path: '"/lib/angular/angular.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular\angular.js"'
+2016-09-10 23:50:09.573 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/controllers/smsManagerSendController.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\controllers\smsManagerSendController.js"'
+2016-09-10 23:50:09.582 +02:00 [Information] Request finished in 131.5922ms 200 text/css
+2016-09-10 23:50:09.585 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-busy/angular-busy.js  
+2016-09-10 23:50:09.612 +02:00 [Information] Sending file. Request path: '"/lib/angular-busy/angular-busy.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-busy\angular-busy.js"'
+2016-09-10 23:50:09.613 +02:00 [Information] Request finished in 159.0614ms 200 application/javascript
+2016-09-10 23:50:09.625 +02:00 [Information] Request finished in 37.1134ms 200 application/javascript
+2016-09-10 23:50:09.626 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/controllers/smsManagerBrowseController.js  
+2016-09-10 23:50:09.626 +02:00 [Information] Request finished in 42.4608ms 200 text/css
+2016-09-10 23:50:09.652 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/services/smsManagerService.js  
+2016-09-10 23:50:09.656 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/controllers/smsManagerBrowseController.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\controllers\smsManagerBrowseController.js"'
+2016-09-10 23:50:09.656 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/controllers/smsManagerStatisticsController.js  
+2016-09-10 23:50:09.682 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/smsManagerApp.js  
+2016-09-10 23:50:09.684 +02:00 [Information] Request finished in 73.0034ms 200 application/javascript
+2016-09-10 23:50:09.687 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/services/smsManagerService.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\services\smsManagerService.js"'
+2016-09-10 23:50:09.689 +02:00 [Information] Request finished in 183.6126ms 200 application/javascript
+2016-09-10 23:50:09.691 +02:00 [Information] Request finished in 30.394ms 404 
+2016-09-10 23:50:09.696 +02:00 [Information] Request finished in 65.9149ms 200 application/javascript
+2016-09-10 23:50:09.697 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/smsManagerApp.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\smsManagerApp.js"'
+2016-09-10 23:50:09.701 +02:00 [Information] Request finished in 116.9036ms 200 application/javascript
+2016-09-10 23:50:09.705 +02:00 [Information] Request finished in 51.7551ms 200 application/javascript
+2016-09-10 23:50:09.708 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/bootstrap/css/bootstrap.css.map  
+2016-09-10 23:50:09.712 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/css/bootstrap.css.map"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\bootstrap\css\bootstrap.css.map"'
+2016-09-10 23:50:09.718 +02:00 [Information] Request finished in 9.0361ms 200 text/plain
+2016-09-10 23:50:09.769 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/controllers/smsManagerStatisticsController.js  
+2016-09-10 23:50:09.772 +02:00 [Information] Request finished in 3.1452ms 404 
+2016-09-10 23:50:09.859 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/views/browse.html  
+2016-09-10 23:50:09.861 +02:00 [Information] Sending file. Request path: '"/sms-manager/views/browse.html"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\views\browse.html"'
+2016-09-10 23:50:09.865 +02:00 [Information] Request finished in 5.1884ms 200 text/html
+2016-09-10 23:50:09.881 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/api/sms/sent.json?dateTimeFrom=2015-03-01T11:30:20&dateTimeTo=2015-03-02T09:20:22&skip=50&take=100  
+2016-09-10 23:50:09.884 +02:00 [Information] Executing action method "SmsManager.Controllers.SmsController.GetSentSMS (SmsManager)" with arguments (["2015-03-01T11:30:20", "2015-03-02T09:20:22", "50", "100"]) - ModelState is Valid
+2016-09-10 23:50:15.806 +02:00 [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2016-09-10 23:50:15.810 +02:00 [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "s"."Id", "s"."CountryId", "s"."DateSent", "s"."From", "s"."Message", "s"."Status", "s"."To"
+FROM "SmsMessage" AS "s"
+2016-09-10 23:50:15.835 +02:00 [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2016-09-10 23:50:15.837 +02:00 [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "s"."Id", "s"."CountryId", "s"."DateSent", "s"."From", "s"."Message", "s"."Status", "s"."To"
+FROM "SmsMessage" AS "s"
+2016-09-10 23:50:58.927 +02:00 [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2016-09-10 23:50:58.930 +02:00 [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "s"."Id", "s"."CountryId", "s"."DateSent", "s"."From", "s"."Message", "s"."Status", "s"."To"
+FROM "SmsMessage" AS "s"
+2016-09-10 23:50:58.962 +02:00 [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2016-09-10 23:50:58.965 +02:00 [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "s"."Id", "s"."CountryId", "s"."DateSent", "s"."From", "s"."Message", "s"."Status", "s"."To"
+FROM "SmsMessage" AS "s"
+2016-09-10 23:56:31.252 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/default.html  
+2016-09-10 23:56:31.252 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5831/  0
+2016-09-10 23:56:31.360 +02:00 [Information] Request finished in 153.4673ms 200 
+2016-09-10 23:56:31.385 +02:00 [Information] The file "/default.html" was not modified
+2016-09-10 23:56:31.395 +02:00 [Information] Request finished in 201.1183ms 304 text/html
+2016-09-10 23:56:31.480 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/bootstrap/css/bootstrap.css  
+2016-09-10 23:56:31.482 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/font-awesome/css/font-awesome.css  
+2016-09-10 23:56:31.484 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-busy/angular-busy.css  
+2016-09-10 23:56:31.488 +02:00 [Information] The file "/lib/font-awesome/css/font-awesome.css" was not modified
+2016-09-10 23:56:31.490 +02:00 [Information] The file "/lib/bootstrap/css/bootstrap.css" was not modified
+2016-09-10 23:56:31.490 +02:00 [Information] The file "/lib/angular-busy/angular-busy.css" was not modified
+2016-09-10 23:56:31.512 +02:00 [Information] Request finished in 12.511ms 304 text/css
+2016-09-10 23:56:31.554 +02:00 [Information] Request finished in 33.0519ms 304 text/css
+2016-09-10 23:56:31.534 +02:00 [Information] Request finished in 36.8096ms 304 text/css
+2016-09-10 23:56:33.355 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/home.html  
+2016-09-10 23:56:33.363 +02:00 [Information] Sending file. Request path: '"/sms-manager/home.html"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\home.html"'
+2016-09-10 23:56:33.387 +02:00 [Information] Request finished in 32.6171ms 200 text/html
+2016-09-10 23:56:33.448 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular/angular.js  
+2016-09-10 23:56:33.449 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-ui-router/angular-ui-router.js  
+2016-09-10 23:56:33.450 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-busy/angular-busy.js  
+2016-09-10 23:56:33.480 +02:00 [Information] The file "/lib/angular-ui-router/angular-ui-router.js" was not modified
+2016-09-10 23:56:33.480 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/smsManagerApp.js  
+2016-09-10 23:56:33.502 +02:00 [Information] The file "/lib/angular/angular.js" was not modified
+2016-09-10 23:56:33.524 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/controllers/smsManagerSendController.js  
+2016-09-10 23:56:33.546 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/controllers/smsManagerBrowseController.js  
+2016-09-10 23:56:33.567 +02:00 [Information] Request finished in 76.3165ms 304 application/javascript
+2016-09-10 23:56:33.568 +02:00 [Information] The file "/lib/angular-busy/angular-busy.js" was not modified
+2016-09-10 23:56:33.591 +02:00 [Information] The file "/sms-manager/js/controllers/smsManagerBrowseController.js" was not modified
+2016-09-10 23:56:33.612 +02:00 [Information] Request finished in 120.3575ms 304 application/javascript
+2016-09-10 23:56:33.635 +02:00 [Information] The file "/sms-manager/js/controllers/smsManagerSendController.js" was not modified
+2016-09-10 23:56:33.667 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/controllers/smsManagerStatisticsController.js  
+2016-09-10 23:56:33.689 +02:00 [Information] Request finished in 159.9076ms 304 application/javascript
+2016-09-10 23:56:33.691 +02:00 [Information] Request finished in 110.9868ms 304 application/javascript
+2016-09-10 23:56:33.696 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/services/smsManagerService.js  
+2016-09-10 23:56:33.702 +02:00 [Information] The file "/sms-manager/js/smsManagerApp.js" was not modified
+2016-09-10 23:56:33.706 +02:00 [Information] Request finished in 252.3771ms 304 application/javascript
+2016-09-10 23:56:33.730 +02:00 [Information] Request finished in 120.8699ms 304 application/javascript
+2016-09-10 23:56:33.730 +02:00 [Information] The file "/sms-manager/js/services/smsManagerService.js" was not modified
+2016-09-10 23:56:33.732 +02:00 [Information] Request finished in 67.5879ms 304 application/javascript
+2016-09-10 23:56:33.924 +02:00 [Information] Request finished in 331.1077ms 404 
+2016-09-10 23:56:34.006 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/views/send.html  
+2016-09-10 23:56:34.008 +02:00 [Information] The file "/sms-manager/views/send.html" was not modified
+2016-09-10 23:56:34.010 +02:00 [Information] Request finished in 4.2376ms 304 text/html
+2016-09-10 23:56:40.579 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/views/browse.html  
+2016-09-10 23:56:40.581 +02:00 [Information] The file "/sms-manager/views/browse.html" was not modified
+2016-09-10 23:56:40.583 +02:00 [Information] Request finished in 4.3214ms 304 text/html
+2016-09-10 23:56:40.599 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/api/sms/sent.json?dateTimeFrom=2015-03-01T11:30:20&dateTimeTo=2015-03-02T09:20:22&skip=50&take=100  
+2016-09-10 23:56:40.946 +02:00 [Information] Executing action method "SmsManager.Controllers.SmsController.GetSentSMS (SmsManager)" with arguments (["2015-03-01T11:30:20", "2015-03-02T09:20:22", "50", "100"]) - ModelState is Valid
+2016-09-10 23:56:45.166 +02:00 [Information] Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2016-09-10 23:56:45.185 +02:00 [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "s"."Id", "s"."CountryId", "s"."DateSent", "s"."From", "s"."Message", "s"."Status", "s"."To"
+FROM "SmsMessage" AS "s"
+2016-09-10 23:56:45.269 +02:00 [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2016-09-10 23:56:45.272 +02:00 [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "s"."Id", "s"."CountryId", "s"."DateSent", "s"."From", "s"."Message", "s"."Status", "s"."To"
+FROM "SmsMessage" AS "s"
+2016-09-10 23:56:55.567 +02:00 [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2016-09-10 23:56:55.569 +02:00 [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "s"."Id", "s"."CountryId", "s"."DateSent", "s"."From", "s"."Message", "s"."Status", "s"."To"
+FROM "SmsMessage" AS "s"
+2016-09-10 23:57:00.659 +02:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2016-09-10 23:57:03.935 +02:00 [Error] Connection id ""0HKUPOL9DGO1V"": An unhandled exception was thrown by the application.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SmsManager.Controllers.SmsController.<>c.<GetSentSMS>b__3_0(SmsMessage x) in D:\Projects\InterviewProjects\interview-projects\src\SmsManager\Controllers\SmsController.cs:line 61
+   at System.Linq.Enumerable.SelectListIterator`2.MoveNext()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter.WriteObject(TextWriter writer, Object value)
+   at Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter.<WriteResponseBodyAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeResultAsync>d__32.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeResultFilterAsync>d__31.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeAllResultFiltersAsync>d__29.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeResourceFilterAsync>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeAsync>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.<Invoke>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.Internal.RequestServicesContainerMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Frame`1.<RequestProcessingAsync>d__2.MoveNext()
+2016-09-10 23:57:03.947 +02:00 [Information] Request finished in 23349.4538ms 200 application/json; charset=utf-8
