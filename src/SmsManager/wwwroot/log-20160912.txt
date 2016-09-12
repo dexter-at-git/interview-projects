@@ -1,0 +1,111 @@
+2016-09-12 18:27:11.827 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/default.html  
+2016-09-12 18:27:11.830 +02:00 [Information] The file "/default.html" was not modified
+2016-09-12 18:27:11.831 +02:00 [Information] Request finished in 3.6965ms 304 text/html
+2016-09-12 18:27:11.931 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/bootstrap/css/bootstrap.css  
+2016-09-12 18:27:11.931 +02:00 [Information] The file "/lib/bootstrap/css/bootstrap.css" was not modified
+2016-09-12 18:27:11.931 +02:00 [Information] Request finished in 0.8871ms 304 text/css
+2016-09-12 18:27:11.934 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/font-awesome/css/font-awesome.css  
+2016-09-12 18:27:11.935 +02:00 [Information] The file "/lib/font-awesome/css/font-awesome.css" was not modified
+2016-09-12 18:27:11.935 +02:00 [Information] Request finished in 1.8109ms 304 text/css
+2016-09-12 18:27:11.936 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-busy/angular-busy.css  
+2016-09-12 18:27:11.937 +02:00 [Information] The file "/lib/angular-busy/angular-busy.css" was not modified
+2016-09-12 18:27:11.937 +02:00 [Information] Request finished in 1.363ms 304 text/css
+2016-09-12 18:51:57.040 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/default.html  
+2016-09-12 18:51:57.142 +02:00 [Information] Sending file. Request path: '"/default.html"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\default.html"'
+2016-09-12 18:51:57.201 +02:00 [Information] Request finished in 187.902ms 200 text/html
+2016-09-12 18:51:57.248 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-busy/angular-busy.css  
+2016-09-12 18:51:57.248 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/font-awesome/css/font-awesome.css  
+2016-09-12 18:51:57.249 +02:00 [Information] Sending file. Request path: '"/lib/angular-busy/angular-busy.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\angular-busy\angular-busy.css"'
+2016-09-12 18:51:57.249 +02:00 [Information] Sending file. Request path: '"/lib/font-awesome/css/font-awesome.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\font-awesome\css\font-awesome.css"'
+2016-09-12 18:51:57.249 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/bootstrap/css/bootstrap.css  
+2016-09-12 18:51:57.250 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/css/bootstrap.css"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\lib\bootstrap\css\bootstrap.css"'
+2016-09-12 18:51:57.253 +02:00 [Information] Request finished in 4.899ms 200 text/css
+2016-09-12 18:51:57.257 +02:00 [Information] Request finished in 7.2835ms 200 text/css
+2016-09-12 18:51:57.266 +02:00 [Information] Request finished in 16.9379ms 200 text/css
+2016-09-12 18:51:57.339 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/favicon.ico  
+2016-09-12 18:51:57.533 +02:00 [Information] Request finished in 194.1624ms 404 
+2016-09-12 18:51:59.346 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/home.html  
+2016-09-12 18:51:59.352 +02:00 [Information] The file "/sms-manager/home.html" was not modified
+2016-09-12 18:51:59.354 +02:00 [Information] Request finished in 7.9752ms 304 text/html
+2016-09-12 18:51:59.401 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular/angular.js  
+2016-09-12 18:51:59.402 +02:00 [Information] The file "/lib/angular/angular.js" was not modified
+2016-09-12 18:51:59.402 +02:00 [Information] Request finished in 1.1417ms 304 application/javascript
+2016-09-12 18:51:59.403 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-ui-router/angular-ui-router.js  
+2016-09-12 18:51:59.404 +02:00 [Information] The file "/lib/angular-ui-router/angular-ui-router.js" was not modified
+2016-09-12 18:51:59.404 +02:00 [Information] Request finished in 1.1934ms 304 application/javascript
+2016-09-12 18:51:59.410 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/smsManagerApp.js  
+2016-09-12 18:51:59.410 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/lib/angular-busy/angular-busy.js  
+2016-09-12 18:51:59.411 +02:00 [Information] The file "/sms-manager/js/smsManagerApp.js" was not modified
+2016-09-12 18:51:59.412 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/controllers/smsManagerSendController.js  
+2016-09-12 18:51:59.413 +02:00 [Information] Request finished in 2.9177ms 304 application/javascript
+2016-09-12 18:51:59.413 +02:00 [Information] The file "/sms-manager/js/controllers/smsManagerSendController.js" was not modified
+2016-09-12 18:51:59.414 +02:00 [Information] Request finished in 2.0354ms 304 application/javascript
+2016-09-12 18:51:59.414 +02:00 [Information] The file "/lib/angular-busy/angular-busy.js" was not modified
+2016-09-12 18:51:59.414 +02:00 [Information] Request finished in 3.8488ms 304 application/javascript
+2016-09-12 18:51:59.414 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/services/smsManagerService.js  
+2016-09-12 18:51:59.414 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/controllers/smsManagerBrowseController.js  
+2016-09-12 18:51:59.412 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/js/controllers/smsManagerStatisticsController.js  
+2016-09-12 18:51:59.417 +02:00 [Information] The file "/sms-manager/js/services/smsManagerService.js" was not modified
+2016-09-12 18:51:59.417 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/controllers/smsManagerBrowseController.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\controllers\smsManagerBrowseController.js"'
+2016-09-12 18:51:59.418 +02:00 [Information] Request finished in 3.1521ms 304 application/javascript
+2016-09-12 18:51:59.418 +02:00 [Information] Sending file. Request path: '"/sms-manager/js/controllers/smsManagerStatisticsController.js"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\js\controllers\smsManagerStatisticsController.js"'
+2016-09-12 18:51:59.418 +02:00 [Information] Request finished in 3.6448ms 200 application/javascript
+2016-09-12 18:51:59.419 +02:00 [Information] Request finished in 6.6853ms 200 application/javascript
+2016-09-12 18:51:59.634 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/views/send.html  
+2016-09-12 18:51:59.635 +02:00 [Information] The file "/sms-manager/views/send.html" was not modified
+2016-09-12 18:51:59.635 +02:00 [Information] Request finished in 0.7751ms 304 text/html
+2016-09-12 18:52:00.995 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/sms-manager/views/browse.html  
+2016-09-12 18:52:00.996 +02:00 [Information] Sending file. Request path: '"/sms-manager/views/browse.html"'. Physical path: '"D:\Projects\InterviewProjects\interview-projects\src\SmsManager\wwwroot\sms-manager\views\browse.html"'
+2016-09-12 18:52:00.996 +02:00 [Information] Request finished in 1.0288ms 200 text/html
+2016-09-12 18:52:02.391 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/api/sms/sent.json?dateTimeFrom=2016-09-10T11:30:20&dateTimeTo=2016-09-15T09:20:22&skip=10&take=10  
+2016-09-12 18:52:02.695 +02:00 [Information] Executing action method "SmsManager.Controllers.SmsController.GetSentSMS (SmsManager)" with arguments (["2016-09-10T11:30:20", "2016-09-15T09:20:22", "10", "10", "json"]) - ModelState is Valid
+2016-09-12 18:52:03.602 +02:00 [Information] Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2016-09-12 18:52:03.714 +02:00 [Information] Executed DbCommand (2ms) [Parameters=[@__startDate_0='?', @__AddDays_1='?', @__p_3='?', @__p_2='?'], CommandType='Text', CommandTimeout='30']
+SELECT "x"."Id", "x"."CountryId", "x"."DateSent", "x"."From", "x"."Message", "x"."Status", "x"."To", "c"."Id", "c"."Code", "c"."MobileCode", "c"."Name", "c"."SmsPrice"
+FROM "SmsMessage" AS "x"
+INNER JOIN "Country" AS "c" ON "x"."CountryId" = "c"."Id"
+WHERE (("x"."DateSent" >= @__startDate_0) & ("x"."DateSent" < @__AddDays_1)) = 1
+LIMIT @__p_3 OFFSET @__p_2
+2016-09-12 18:52:03.903 +02:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2016-09-12 18:52:04.112 +02:00 [Information] Executed action "SmsManager.Controllers.SmsController.GetSentSMS (SmsManager)" in 1649.8174ms
+2016-09-12 18:52:04.113 +02:00 [Information] Request finished in 1722.866ms 200 application/json; charset=utf-8
+2016-09-12 18:52:06.210 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/api/sms/sent.json?dateTimeFrom=2016-09-10T11:30:20&dateTimeTo=2016-09-15T09:20:22&skip=100&take=10  
+2016-09-12 18:52:06.212 +02:00 [Information] Executing action method "SmsManager.Controllers.SmsController.GetSentSMS (SmsManager)" with arguments (["2016-09-10T11:30:20", "2016-09-15T09:20:22", "100", "10", "json"]) - ModelState is Valid
+2016-09-12 18:52:06.259 +02:00 [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2016-09-12 18:52:06.266 +02:00 [Information] Executed DbCommand (0ms) [Parameters=[@__startDate_0='?', @__AddDays_1='?', @__p_3='?', @__p_2='?'], CommandType='Text', CommandTimeout='30']
+SELECT "x"."Id", "x"."CountryId", "x"."DateSent", "x"."From", "x"."Message", "x"."Status", "x"."To", "c"."Id", "c"."Code", "c"."MobileCode", "c"."Name", "c"."SmsPrice"
+FROM "SmsMessage" AS "x"
+INNER JOIN "Country" AS "c" ON "x"."CountryId" = "c"."Id"
+WHERE (("x"."DateSent" >= @__startDate_0) & ("x"."DateSent" < @__AddDays_1)) = 1
+LIMIT @__p_3 OFFSET @__p_2
+2016-09-12 18:52:06.269 +02:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2016-09-12 18:52:06.269 +02:00 [Information] Executed action "SmsManager.Controllers.SmsController.GetSentSMS (SmsManager)" in 57.9725ms
+2016-09-12 18:52:06.272 +02:00 [Information] Request finished in 62.6084ms 200 application/json; charset=utf-8
+2016-09-12 18:52:12.722 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/api/sms/sent.json?dateTimeFrom=2016-09-10T11:30:20&dateTimeTo=2016-09-15T09:20:22&skip=10&take=20  
+2016-09-12 18:52:12.722 +02:00 [Information] Executing action method "SmsManager.Controllers.SmsController.GetSentSMS (SmsManager)" with arguments (["2016-09-10T11:30:20", "2016-09-15T09:20:22", "10", "20", "json"]) - ModelState is Valid
+2016-09-12 18:52:12.725 +02:00 [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2016-09-12 18:52:12.725 +02:00 [Information] Executed DbCommand (0ms) [Parameters=[@__startDate_0='?', @__AddDays_1='?', @__p_3='?', @__p_2='?'], CommandType='Text', CommandTimeout='30']
+SELECT "x"."Id", "x"."CountryId", "x"."DateSent", "x"."From", "x"."Message", "x"."Status", "x"."To", "c"."Id", "c"."Code", "c"."MobileCode", "c"."Name", "c"."SmsPrice"
+FROM "SmsMessage" AS "x"
+INNER JOIN "Country" AS "c" ON "x"."CountryId" = "c"."Id"
+WHERE (("x"."DateSent" >= @__startDate_0) & ("x"."DateSent" < @__AddDays_1)) = 1
+LIMIT @__p_3 OFFSET @__p_2
+2016-09-12 18:52:12.727 +02:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2016-09-12 18:52:12.728 +02:00 [Information] Executed action "SmsManager.Controllers.SmsController.GetSentSMS (SmsManager)" in 6.1639ms
+2016-09-12 18:52:12.729 +02:00 [Information] Request finished in 7.0634ms 200 application/json; charset=utf-8
+2016-09-12 18:52:20.322 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:5831/api/sms/sent.json?dateTimeFrom=2016-09-10T11:30:20&dateTimeTo=2016-09-15T09:20:22&skip=0&take=20  
+2016-09-12 18:52:20.322 +02:00 [Information] Executing action method "SmsManager.Controllers.SmsController.GetSentSMS (SmsManager)" with arguments (["2016-09-10T11:30:20", "2016-09-15T09:20:22", "0", "20", "json"]) - ModelState is Valid
+2016-09-12 18:52:20.325 +02:00 [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2016-09-12 18:52:20.326 +02:00 [Information] Executed DbCommand (0ms) [Parameters=[@__startDate_0='?', @__AddDays_1='?', @__p_3='?', @__p_2='?'], CommandType='Text', CommandTimeout='30']
+SELECT "x"."Id", "x"."CountryId", "x"."DateSent", "x"."From", "x"."Message", "x"."Status", "x"."To", "c"."Id", "c"."Code", "c"."MobileCode", "c"."Name", "c"."SmsPrice"
+FROM "SmsMessage" AS "x"
+INNER JOIN "Country" AS "c" ON "x"."CountryId" = "c"."Id"
+WHERE (("x"."DateSent" >= @__startDate_0) & ("x"."DateSent" < @__AddDays_1)) = 1
+LIMIT @__p_3 OFFSET @__p_2
+2016-09-12 18:52:20.327 +02:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2016-09-12 18:52:20.327 +02:00 [Information] Executed action "SmsManager.Controllers.SmsController.GetSentSMS (SmsManager)" in 4.8169ms
+2016-09-12 18:52:20.327 +02:00 [Information] Request finished in 5.5087ms 200 application/json; charset=utf-8

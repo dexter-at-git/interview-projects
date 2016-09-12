@@ -12,7 +12,7 @@
         var vm = this;
         vm.error = undefined;
         vm.dateFrom = '2016-09-10';
-        vm.dateTo = '2016-09-11';
+        vm.dateTo = '2016-09-15';
         vm.mccList = '262,232,260';
         vm.statistics = [];
 

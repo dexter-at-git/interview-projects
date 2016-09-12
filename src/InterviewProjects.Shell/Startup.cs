@@ -1,8 +1,17 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc.Formatters;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using SmsManager.Data;
+using SmsManager.Models.Profiles;
+using SmsManager.Repositories;
+using SmsManager.Repositories.Interfaces;
+using SmsManager.Services;
+using SmsManager.Services.Interfaces;
 using Transcipher.Algorithms;
 using Transcipher.Services;
 
@@ -26,6 +35,34 @@ namespace InterviewProjects.Shell
         {
             services.AddTransient<ITranscipherService, TranscipherService>();
             services.AddTransient<IAlgorithmFactory, AlgorithmFactory>();
+
+
+            var connection = Configuration["Production:SqliteConnectionString"];
+
+            services.AddDbContext<SmsManagerContext>(options =>
+                options.UseSqlite(connection)
+            );
+
+            var mapperConfig = new MapperConfiguration(cfg =>
+            {
+                cfg.AddProfile(new SmsManagerProfile());
+            });
+
+            services.AddSingleton<IMapper>(sp => mapperConfig.CreateMapper());
+
+            services.AddTransient<ISmsManagerService, SmsManagerService>();
+
+            services.AddTransient<ISmsMessageRepository, SmsMessageRepository>();
+            services.AddTransient<ICountryRepository, CountryRepoisitory>();
+            services.AddTransient<ISmsSender, SmsSender>();
+
+            services.AddMvc(config =>
+            {
+                config.RespectBrowserAcceptHeader = true;
+                config.InputFormatters.Add(new XmlSerializerInputFormatter());
+                config.OutputFormatters.Add(new XmlSerializerOutputFormatter());
+            });
+
 
             services.AddMvc();
         }

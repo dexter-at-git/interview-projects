@@ -12,6 +12,7 @@ namespace SmsManager.Data
 
         public SmsManagerContext(DbContextOptions<SmsManagerContext> options) : base(options)
         {
+            Database.Migrate();
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

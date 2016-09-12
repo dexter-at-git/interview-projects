@@ -96,7 +96,7 @@ namespace SmsManager.Controllers
 
             try
             {
-                var messages = _smsManagerService.GetSmsMessages(fromDateTime, toDateTime, 10, 10);
+                var messages = _smsManagerService.GetSmsMessages(fromDateTime, toDateTime, skip, take);
 
                 var response = new SentSmsResponse()
                 {

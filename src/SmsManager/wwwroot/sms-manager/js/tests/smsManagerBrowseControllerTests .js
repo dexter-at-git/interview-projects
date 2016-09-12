@@ -30,6 +30,8 @@ describe("Sms Manager Browse Controller tests", function () {
             expect(vm.response).toEqual(undefined);
             expect(vm.dateTimeFrom).not.toEqual('');
             expect(vm.dateTimeTo).not.toEqual('');
+            expect(vm.skip).not.toEqual('');
+            expect(vm.take).not.toEqual('');
             expect(vm.error).toEqual(undefined);
         });
 

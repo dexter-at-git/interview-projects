@@ -12,15 +12,17 @@
         var vm = this;
         vm.error = undefined;
         vm.response = undefined;
-        vm.dateTimeFrom = '2015-03-01T11:30:20';
-        vm.dateTimeTo = '2015-03-02T09:20:22';
+        vm.dateTimeFrom = '2016-09-10T11:30:20';
+        vm.dateTimeTo = '2016-09-15T09:20:22';
+        vm.take = 10;
+        vm.skip = 0;
 
         vm.filter = function () {
             var smsBrowseData = {
                 dateTimeFrom: vm.dateTimeFrom,
                 dateTimeTo: vm.dateTimeTo,
-                skip: 10,
-                take: 10
+                skip: vm.skip,
+                take: vm.take
             }
 
             vm.browsePromise = smsManagerService.browse(smsBrowseData)
