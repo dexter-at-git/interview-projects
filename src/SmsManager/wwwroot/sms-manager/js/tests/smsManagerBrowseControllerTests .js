@@ -48,7 +48,7 @@ describe("Sms Manager Browse Controller tests", function () {
         it('service should be called and on success populate result', function () {
             vm.filter();
 
-            http.expect('GET', '../api/sms/sent.json?dateTimeFrom=' + vm.dateTimeFrom + '&dateTimeTo=' + vm.dateTimeTo + '&skip=' + 10 + '&take=' + 10).respond(200, responseMock);
+            http.expect('GET', '../api/sms/sent.json?dateTimeFrom=' + vm.dateTimeFrom + '&dateTimeTo=' + vm.dateTimeTo + '&skip=' + vm.skip + '&take=' + vm.take).respond(200, responseMock);
             http.flush();
 
             expect(vm.response).not.toEqual(undefined);
@@ -59,7 +59,7 @@ describe("Sms Manager Browse Controller tests", function () {
         it('service should be called and on failure show error message', function () {
             vm.filter();
 
-            http.expect('GET', '../api/sms/sent.json?dateTimeFrom=' + vm.dateTimeFrom + '&dateTimeTo=' + vm.dateTimeTo + '&skip=' + 10 + '&take=' + 10).respond(500, error500);
+            http.expect('GET', '../api/sms/sent.json?dateTimeFrom=' + vm.dateTimeFrom + '&dateTimeTo=' + vm.dateTimeTo + '&skip=' + vm.skip + '&take=' + vm.take).respond(500, error500);
             http.flush();
 
             expect(vm.response).toEqual(undefined);
