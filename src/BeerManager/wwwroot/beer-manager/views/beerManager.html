@@ -1,0 +1,50 @@
+﻿<div cg-busy="{promise:vm.getBeerPromise, message:'Loading beer list ...', minDuration:700}">
+    <div class="row">
+        <div class="form-group col-md-2">
+            <label class="control-label">Beer name</label>
+            <input class="form-control" ng-model="vm.filter.name" />
+        </div>
+
+        <div class="form-group col-md-2">
+            <label class="control-label">&nbsp;</label>
+            <button class="btn btn-primary btn-block" ng-click="vm.filter.filter()">Filter</button>
+        </div>
+    </div>
+
+    <table class="table table-condensed">
+        <thead>
+            <tr>
+                <th class="text-left"><a ng-click="vm.sorter.sort('name')">Beer name</a></th>
+                <th class="text-left">Beer style</th>
+                <th class="text-center"><a ng-click="vm.sorter.sort('abv')">ABV</a></th>
+                <th class="text-center"><a ng-click="vm.sorter.sort('ibu')">IBU</a></th>
+                <th class="text-center"><a ng-click="vm.sorter.sort('isOrganic')">Organic</a></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="beer in vm.beerList">
+                <td class="text-left">
+                    {{beer.name}}
+                </td>
+                <td class="text-left">
+                    {{beer.style.name}}
+                </td>
+                <td class="text-center">
+                    {{beer.abv}}
+                </td>
+                <td class="text-center">
+                    {{beer.ibu}}
+                </td>
+                <td class="text-center">
+                    <span class="glyphicon" ng-class="{'glyphicon-ok' : beer.isOrganic, 'glyphicon-remove' : !beer.isOrganic}"></span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <ul class="pager">
+        <li class="previous" ng-if="vm.pager.hasPrev()"><a ng-click="vm.pager.prev()"><span>&larr;</span> Previous</a></li>
+        <li>{{vm.pager.current}} page of {{vm.pager.total}}</li>
+        <li class="next" ng-if="vm.pager.hasNext()"><a ng-click="vm.pager.next()">Next <span>&rarr;</span></a></li>
+    </ul>
+</div>

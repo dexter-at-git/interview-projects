@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Beer Manager</title>
+    <link href="../lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="../lib/angular-busy/angular-busy.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body ng-app="beerManagerApp">
+    <div class="container" ng-cloak>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                    </button>
+                    <a class="navbar-brand" href="../default.html">Test projects from interviews</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li ui-sref-active="active"><a ui-sref="/">Beer Manager</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div>
+            <div ui-view></div>
+        </div>
+    </div>
+
+    <script src="../lib/angular/angular.js"></script>
+    <script src="../lib/angular-ui-router/angular-ui-router.js"></script>
+    <script src="../lib/angular-busy/angular-busy.js"></script>
+
+    <script src="js/beerManagerApp.js"></script>
+    <script src="js/controllers/beerManagerController.js"></script>
+    <script src="js/services/beerManagerService.js"></script>
+</body>
+</html>
