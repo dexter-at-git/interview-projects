@@ -7,18 +7,18 @@
 
         <div class="form-group col-md-2">
             <label class="control-label">&nbsp;</label>
-            <button class="btn btn-primary btn-block" ng-click="vm.filter.filter()">Filter</button>
+            <button class="btn btn-primary btn-block" ng-click="vm.filterData()">Filter</button>
         </div>
     </div>
 
     <table class="table table-condensed">
         <thead>
             <tr>
-                <th class="text-left"><a ng-click="vm.sorter.sort('name')">Beer name</a></th>
+                <th class="text-left"><a ng-click="vm.sortData('name')">Beer name</a></th>
                 <th class="text-left">Beer style</th>
-                <th class="text-center"><a ng-click="vm.sorter.sort('abv')">ABV</a></th>
-                <th class="text-center"><a ng-click="vm.sorter.sort('ibu')">IBU</a></th>
-                <th class="text-center"><a ng-click="vm.sorter.sort('isOrganic')">Organic</a></th>
+                <th class="text-center"><a ng-click="vm.sortData('abv')">ABV</a></th>
+                <th class="text-center"><a ng-click="vm.sortData('ibu')">IBU</a></th>
+                <th class="text-center"><a ng-click="vm.sortData('isOrganic')">Organic</a></th>
             </tr>
         </thead>
         <tbody>
@@ -43,8 +43,8 @@
     </table>
 
     <ul class="pager">
-        <li class="previous" ng-if="vm.pager.hasPrev()"><a ng-click="vm.pager.prev()"><span>&larr;</span> Previous</a></li>
+        <li class="previous" ng-if="vm.pager.hasPrev()"><a ng-click="vm.prevData()"><span>&larr;</span> Previous</a></li>
         <li>{{vm.pager.current}} page of {{vm.pager.total}}</li>
-        <li class="next" ng-if="vm.pager.hasNext()"><a ng-click="vm.pager.next()">Next <span>&rarr;</span></a></li>
+        <li class="next" ng-if="vm.pager.hasNext()"><a ng-click="vm.nextData()">Next <span>&rarr;</span></a></li>
     </ul>
 </div>

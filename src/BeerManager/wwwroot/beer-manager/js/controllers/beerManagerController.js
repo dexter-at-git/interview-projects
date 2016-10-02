@@ -8,22 +8,38 @@
     beerManagerController.$inject = ['beerManagerService'];
 
     function beerManagerController(beerManagerService) {
-
         var vm = this;
         vm.beerList = [];
-        vm.pager = {};
-        vm.sorter = {};
-        vm.filter = {};
+        vm.pager = new function () {
+            var self = this;
+            self.current = 1;
+            self.total = 1;
+            self.hasPrev = function () {
+                return self.current !== 1;
+            }
+            self.hasNext = function () {
+                return self.current !== self.total;
+            }
+        };
+        vm.sorter = new function () {
+            var self = this;
+            self.order = 'name';
+            self.reverse = false;
+        };
+        vm.filter = new function () {
+            var self = this;
+            self.name = '';
+            self.isDisabled = function () {
+                return self.name !== '';
+            }
+        };
         vm.error = {};
 
         function initialize() {
-            vm.pager = new Pager();
-            vm.sorter = new Sorter();
-            vm.filter = new Filter();
-            query();
+            getBeers();
         }
 
-        function query() {
+        function getBeers() {
             var params = {
                 page: vm.pager.current,
                 reverse: vm.sorter.reverse,
@@ -41,53 +57,25 @@
                 });
         }
 
-        var Sorter = function () {
-            var self = this;
-            self.order = 'name';
-            self.reverse = false;
-
-            self.sort = function (columnName) {
-                self.order = columnName;
-                self.reverse = !self.reverse;
-                query();
-            }
+        vm.sortData = function (columnName) {
+            vm.sorter.order = columnName;
+            vm.sorter.reverse = !vm.sorter.reverse;
+            getBeers();
         }
 
-        var Filter = function () {
-            var self = this;
-            self.name = '';
-
-            self.filter = function () {
-                query();
-            }
-
-            self.isDisabled = function () {
-                return self.name !== '';
-            }
+        vm.filterData = function () {
+            vm.pager.current = 1;
+            getBeers();
         }
 
-        var Pager = function () {
-            var self = this;
-            self.current = 1;
-            self.total = 1;
+        vm.nextData = function () {
+            vm.pager.current++;
+            getBeers();
+        };
 
-            self.next = function () {
-                self.current++;
-                query();
-            };
-
-            self.prev = function () {
-                self.current--;
-                query();
-            };
-
-            self.hasPrev = function () {
-                return self.current !== 1;
-            }
-
-            self.hasNext = function () {
-                return self.current !== self.total;
-            }
+        vm.prevData = function () {
+            vm.pager.current--;
+            getBeers();
         };
 
         initialize();

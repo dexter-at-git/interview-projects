@@ -32,14 +32,7 @@ namespace BeerManager.Services
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
                 HttpResponseMessage response = await client.GetAsync(uri);
-                if (response.IsSuccessStatusCode)
-                {
-                    return await response.Content.ReadAsStringAsync();
-                }
-                else
-                {
-                    return "asd";
-                }
+                return await response.Content.ReadAsStringAsync();
             }
         }
     }
